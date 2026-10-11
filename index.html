@@ -1,0 +1,2003 @@
+<!DOCTYPE html>
+<html lang="en-IN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>SkillWiz 2.0 | Degrees don't get hired. Proof does.</title>
+<meta name="description" content="SkillWiz 2.0 turns academic learning into verified, evidence-backed student capability. One platform for university leadership, faculty, students and employers hiring interns and freshers. ₹2,500 per student per year.">
+<meta property="og:title" content="SkillWiz 2.0: degrees don't get hired, proof does">
+<meta property="og:description" content="Baselining, learning, assessment, projects, mentoring and outcomes in one journey, recorded in each student's Karm-Patri.">
+<meta property="og:type" content="website">
+<meta name="theme-color" content="#0F5132">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Anton&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"Organization","name":"SkillWiz","legalName":"myPerfectice Educare Private Limited","url":"https://www.myskillwiz.com","email":"info@myskillwiz.com","telephone":"+91-98506-96969","address":{"@type":"PostalAddress","streetAddress":"D-403, Shreeram South Court, Nr. DMart, Goner Road, Jagatpura","addressLocality":"Jaipur","addressRegion":"Rajasthan","postalCode":"302017","addressCountry":"IN"}}
+</script>
+<style>
+:root{
+  --green:#0F5132; --green-deep:#0A3A24; --orange:#F47B20; --orange-deep:#D9640F;
+  --cream:#FFF5E8; --paper:#FFFFFF; --ink:#18231D; --muted:#5B6660; --line:#E6DDCC; --gold:#E9B824;
+  --display:'Anton','Impact','Arial Narrow',sans-serif; --body:'Manrope',system-ui,-apple-system,'Segoe UI',sans-serif;
+  --wrap:1160px;
+}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth;scroll-padding-top:84px}
+body{margin:0;font-family:var(--body);color:var(--ink);background:var(--paper);line-height:1.6;font-size:16px;-webkit-font-smoothing:antialiased}
+img,svg{max-width:100%}
+a{color:var(--green)}
+h1,h2,h3,h4{margin:0;line-height:1.1}
+h1,h2,.display{font-family:var(--display);font-weight:400;text-transform:uppercase;letter-spacing:.01em;color:var(--green)}
+h2{font-size:clamp(2rem,4.6vw,3.4rem);margin-bottom:14px;text-wrap:balance}
+h3{font-size:1.2rem;font-weight:800;color:var(--green)}
+p{margin:0 0 14px}
+.wrap{max-width:var(--wrap);margin:0 auto;padding:0 20px}
+.band{padding:84px 0}
+.band-cream{background:var(--cream)}
+.band-green{background:var(--green);color:#fff}
+.band-green h2,.band-green h3{color:#fff}
+.lede{font-size:1.1rem;color:var(--muted);max-width:68ch}
+.band-green .lede{color:#D6E5DC}
+.rule{height:5px;width:100%;background:var(--orange);margin:6px 0 34px;border:0}
+.orange{color:var(--orange)}
+:focus-visible{outline:3px solid var(--gold);outline-offset:2px}
+
+/* buttons */
+.btn{display:inline-flex;align-items:center;justify-content:center;gap:8px;font:800 .98rem var(--body);padding:14px 22px;border-radius:6px;border:2px solid transparent;cursor:pointer;text-decoration:none;transition:background .15s,color .15s}
+.btn-primary{background:var(--orange);color:#fff}
+.btn-primary:hover{background:var(--orange-deep)}
+.btn-ghost{background:transparent;color:var(--green);border-color:var(--green)}
+.btn-ghost:hover{background:var(--green);color:#fff}
+.band-green .btn-ghost{color:#fff;border-color:#fff}
+.band-green .btn-ghost:hover{background:#fff;color:var(--green)}
+.btn-sm{padding:10px 16px;font-size:.9rem}
+
+/* nav */
+.nav{position:sticky;top:env(safe-area-inset-top,0px);z-index:50;background:#fff;border-bottom:1px solid var(--line)}
+.nav-in{display:flex;align-items:center;gap:22px;height:68px}
+.logo{font-family:var(--display);font-size:1.9rem;text-decoration:none;letter-spacing:.01em;line-height:1}
+.logo b{color:var(--orange);font-weight:400}.logo i{color:var(--green);font-style:normal}
+.nav-links{display:flex;gap:20px;margin-left:auto;align-items:center}
+.nav-links a{text-decoration:none;color:var(--ink);font-weight:700;font-size:.92rem}
+.nav-links a:hover{color:var(--orange-deep)}
+.nav-toggle{display:none;margin-left:auto;background:none;border:2px solid var(--green);border-radius:6px;padding:8px 12px;font:800 .9rem var(--body);color:var(--green);cursor:pointer}
+@media(max-width:980px){
+  .nav-toggle{display:block}
+  .nav-links{display:none;position:absolute;left:0;right:0;top:68px;background:#fff;flex-direction:column;align-items:flex-start;padding:18px 20px;border-bottom:1px solid var(--line);gap:14px}
+  .nav-links.open{display:flex}
+}
+
+/* hero */
+.hero{background:var(--cream);padding:56px 0 72px;border-bottom:5px solid var(--orange)}
+.who{display:flex;flex-wrap:wrap;gap:8px;margin-bottom:26px;align-items:center}
+.who span{font-weight:700;color:var(--muted);margin-right:6px}
+.chip{font:700 .92rem var(--body);padding:9px 16px;border-radius:999px;border:2px solid var(--green);background:transparent;color:var(--green);cursor:pointer}
+.chip[aria-pressed="true"],.chip[aria-selected="true"]{background:var(--green);color:#fff}
+.hero-grid{display:grid;grid-template-columns:1.1fr .9fr;gap:48px;align-items:center}
+.hero h1{font-size:clamp(2.6rem,6.4vw,5rem);margin-bottom:18px}
+.hero h1 em{font-style:normal;color:var(--orange);display:block}
+.hero p.sub{font-size:1.15rem;max-width:56ch;color:#34413A}
+.hero-cta{display:flex;flex-wrap:wrap;gap:12px;margin:26px 0 22px}
+.hero-facts{display:flex;flex-wrap:wrap;gap:8px 26px;font-weight:700;color:var(--green);font-size:.95rem;padding:0;margin:0;list-style:none}
+.hero-facts li::before{content:"";display:inline-block;width:8px;height:8px;background:var(--orange);margin-right:8px}
+@media(max-width:900px){.hero-grid{grid-template-columns:1fr}}
+
+/* karm-patri card */
+.kp{margin:0 10px 10px 0;background:#fff;border-radius:14px;overflow:hidden;border:2px solid var(--green);box-shadow:10px 10px 0 var(--green)}
+.kp-head{background:var(--green);color:#fff;padding:16px 20px;display:flex;justify-content:space-between;gap:12px;align-items:flex-start}
+.kp-head strong{font-family:var(--display);font-weight:400;font-size:1.25rem;letter-spacing:.02em;text-transform:uppercase;display:block}
+.kp-head small{color:#CFE0D6;font-size:.8rem}
+.kp-ver{white-space:nowrap;font-family:var(--display);color:var(--gold);font-size:.95rem;letter-spacing:.04em}
+.kp-body{display:grid;grid-template-columns:150px 1fr;gap:18px;padding:20px}
+.kp-ring{text-align:center}
+.kp-ring svg{width:130px;height:130px}
+.kp-ring .n{font-family:var(--display);font-size:2.6rem;fill:var(--green)}
+.kp-ring p{font-size:.78rem;color:var(--muted);margin:6px 0 0}
+.kp-dims{display:grid;grid-template-columns:1fr 1fr;gap:10px}
+.dim{border:1px solid var(--line);border-radius:8px;padding:9px 11px}
+.dim label{display:block;font-size:.68rem;font-weight:700;color:var(--muted);letter-spacing:.04em;text-transform:uppercase}
+.dim b{font-family:var(--display);font-weight:400;font-size:1.15rem;color:var(--green)}
+.bar{height:4px;background:#EFE7D8;border-radius:2px;margin-top:5px;overflow:hidden}
+.bar i{display:block;height:100%;background:var(--orange);width:0;transition:width .7s ease}
+.kp-foot{border-top:1px solid var(--line);padding:10px 20px;font-size:.74rem;color:var(--muted)}
+.kp-pick{display:flex;gap:8px;flex-wrap:wrap;margin-bottom:14px}
+@media(max-width:520px){.kp-body{grid-template-columns:1fr}.kp{box-shadow:6px 6px 0 var(--green)}}
+
+/* proof strip */
+.proof{background:var(--green);color:#fff;padding:26px 0}
+.proof-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:18px}
+.proof b{font-family:var(--display);font-weight:400;font-size:clamp(1.8rem,3.6vw,2.6rem);color:#fff;display:block;line-height:1.1}
+.proof span{color:#CFE0D6;font-size:.9rem}
+@media(max-width:720px){.proof-grid{grid-template-columns:1fr 1fr}}
+
+/* grids */
+.g2{display:grid;grid-template-columns:1fr 1fr;gap:28px}.g2>*,.g3>*,.g4>*,.aud>*,.hero-grid>*,.tabpanel>*{min-width:0}
+.g3{display:grid;grid-template-columns:repeat(3,1fr);gap:22px}
+.g4{display:grid;grid-template-columns:repeat(4,1fr);gap:18px}
+@media(max-width:900px){.g2,.g3{grid-template-columns:1fr}.g4{grid-template-columns:1fr 1fr}}
+@media(max-width:520px){.g4{grid-template-columns:1fr}}
+.stat{background:var(--cream);border-top:5px solid var(--orange);padding:20px}
+.stat b{font-family:var(--display);font-weight:400;font-size:2.6rem;color:var(--green);display:block;line-height:1.05}
+.stat span{color:var(--muted);font-size:.92rem}
+.panel{background:#fff;border:1px solid var(--line);border-radius:10px;padding:24px}
+.band-cream .panel{border-color:#EADFCB}
+.callout{border-left:6px solid var(--orange);background:var(--cream);padding:18px 22px;margin-top:26px}
+.band-cream .callout{background:#fff}
+.callout strong{color:var(--green)}
+ul.ticks{list-style:none;padding:0;margin:0}
+ul.ticks li{padding:7px 0 7px 22px;position:relative;border-bottom:1px solid var(--line)}
+ul.ticks li:last-child{border-bottom:0}
+ul.ticks li::before{content:"";position:absolute;left:0;top:16px;width:9px;height:9px;background:var(--orange)}
+
+/* tables */
+.tbl-wrap{overflow-x:auto;border:1px solid var(--line);border-radius:10px;background:#fff}
+table{width:100%;border-collapse:collapse;min-width:560px}
+th{background:var(--green);color:#fff;text-align:left;padding:13px 16px;font-size:.92rem}
+td{padding:13px 16px;border-top:1px solid var(--line);vertical-align:top;font-size:.95rem}
+tr:nth-child(even) td{background:#FFFAF2}
+td:first-child{font-weight:700;color:var(--green)}
+
+/* journey */
+.stages{display:grid;grid-template-columns:repeat(8,1fr);gap:8px;position:relative;margin-bottom:22px}
+.stage{background:#fff;border:2px solid var(--line);border-radius:10px;padding:14px 8px;text-align:center;cursor:pointer;font:inherit;color:var(--ink)}
+.stage .num{font-family:var(--display);font-size:1.5rem;width:44px;height:44px;border-radius:50%;display:grid;place-items:center;margin:0 auto 8px;background:var(--green);color:#fff}
+.stage.loop .num{background:var(--orange)}
+.stage.last .num{background:var(--gold);color:var(--ink)}
+.stage b{font-family:var(--display);font-weight:400;text-transform:uppercase;font-size:.92rem;color:var(--green);display:block;line-height:1.15}
+.stage[aria-selected="true"]{border-color:var(--orange);background:#FFF}
+.stage[aria-selected="true"]{box-shadow:0 5px 0 var(--orange)}
+.stage-detail{background:#fff;border:1px solid var(--line);border-left:6px solid var(--orange);padding:22px 24px;border-radius:0 10px 10px 0;min-height:120px}
+.loop-note{font-weight:700;color:var(--orange-deep);font-size:.9rem;margin-bottom:12px}
+@media(max-width:900px){.stages{grid-template-columns:repeat(4,1fr)}}
+@media(max-width:480px){.stages{grid-template-columns:repeat(2,1fr)}}
+
+/* tabs */
+.tabs{display:flex;flex-wrap:wrap;gap:8px;margin-bottom:20px}
+.tabpanel{display:grid;grid-template-columns:1.2fr .8fr;gap:24px;background:#fff;border:1px solid var(--line);border-radius:10px;padding:26px}
+.tabpanel .access{background:var(--cream);padding:18px;border-radius:8px}
+@media(max-width:800px){.tabpanel{grid-template-columns:1fr}}
+
+/* audience blocks */
+.aud{display:grid;grid-template-columns:.9fr 1.1fr;gap:44px;align-items:start}
+@media(max-width:900px){.aud{grid-template-columns:1fr}}
+.tag{display:inline-block;font-weight:800;color:var(--orange-deep);margin-bottom:8px}
+.band-green .tag{color:var(--gold)}
+
+/* forms */
+.form{display:grid;gap:14px}
+.form .row{display:grid;grid-template-columns:1fr 1fr;gap:14px}
+@media(max-width:560px){.form .row{grid-template-columns:1fr}}
+label.f{display:grid;gap:6px;font-weight:700;font-size:.9rem;color:var(--ink)}
+input[type=text],input[type=email],input[type=tel],input[type=number],select,textarea{font:500 1rem var(--body);padding:12px 13px;border:1.5px solid #CFC6B4;border-radius:6px;background:#fff;color:var(--ink);width:100%}
+input:focus,select:focus,textarea:focus{border-color:var(--green);outline:3px solid rgba(244,123,32,.35)}
+textarea{min-height:90px;resize:vertical}
+.checks{display:flex;flex-wrap:wrap;gap:8px}
+.checks label{border:1.5px solid #CFC6B4;border-radius:999px;padding:7px 13px;font-weight:600;font-size:.88rem;cursor:pointer;background:#fff;color:var(--ink)}
+.checks input{position:absolute;opacity:0}
+.checks label:has(input:checked){background:var(--green);color:#fff;border-color:var(--green)}
+.checks label:has(input:focus-visible){outline:3px solid var(--gold)}
+.fine{font-size:.8rem;color:var(--muted)}
+.band-green .fine{color:#CFE0D6}
+.band-green .prop .fine,.band-green .panel .fine{color:var(--muted)}
+.band-green .prop-form .checks label:has(input:checked){background:var(--orange);border-color:var(--orange)}
+.err{color:#B3261E;font-weight:700;font-size:.88rem;min-height:1.2em}
+.ok{background:#E8F3EC;border:1.5px solid var(--green);border-radius:8px;padding:16px;color:var(--green-deep);font-weight:700}
+input[type=range]{width:100%;accent-color:var(--orange)}
+
+/* calculator + proposal */
+.calc-out{display:grid;grid-template-columns:repeat(3,1fr);gap:12px;margin-top:18px}
+.calc-out div{background:var(--cream);padding:16px;border-top:4px solid var(--orange)}
+.calc-out b{font-family:var(--display);font-weight:400;font-size:1.9rem;color:var(--green);display:block;line-height:1.1}
+.calc-out span{font-size:.84rem;color:var(--muted)}
+@media(max-width:520px){.calc-out{grid-template-columns:1fr}}
+.prop{background:#fff;border:2px solid var(--green);border-radius:10px;overflow:hidden;color:var(--ink)}
+.prop-head{background:var(--green);color:#fff;padding:18px 22px}
+.prop-head small{color:var(--gold);font-weight:800}
+.prop-head div{font-family:var(--display);font-size:1.7rem;text-transform:uppercase;line-height:1.1;margin-top:4px}
+.prop-body{padding:20px 22px}
+.prop-body h4{font-size:.95rem;color:var(--green);margin:16px 0 6px;font-weight:800}
+.prop-body h4:first-child{margin-top:0}
+.prop-nums{display:grid;grid-template-columns:1fr 1fr;gap:10px}
+.prop-nums div{background:var(--cream);padding:12px}
+.prop-nums b{font-family:var(--display);font-weight:400;font-size:1.5rem;color:var(--green);display:block}
+.prop-nums span{font-size:.8rem;color:var(--muted)}
+.prop-body ul{margin:0;padding-left:18px}
+.prop-empty{padding:40px 24px;text-align:center;color:var(--muted)}
+
+/* quiz */
+.q{border-bottom:1px solid var(--line);padding:14px 0}
+.q p{font-weight:700;margin-bottom:8px}
+.q .opts{display:flex;gap:8px;flex-wrap:wrap}
+.q .opts button{font:700 .86rem var(--body);padding:7px 14px;border-radius:999px;border:1.5px solid var(--green);background:#fff;color:var(--green);cursor:pointer}
+.q .opts button[aria-pressed="true"]{background:var(--green);color:#fff}
+.meter{height:14px;background:#EFE7D8;border-radius:7px;overflow:hidden;margin:10px 0}
+.meter i{display:block;height:100%;background:var(--orange);width:0;transition:width .5s}
+
+/* timeline */
+.phases{display:grid;grid-template-columns:repeat(4,1fr);gap:0;border:1px solid var(--line);border-radius:10px;overflow:hidden;background:#fff}
+.phase{padding:22px;border-right:1px solid var(--line)}
+.phase:last-child{border-right:0}
+.phase .wk{font-family:var(--display);color:var(--orange);font-size:1.5rem;line-height:1.1}
+.phase h3{margin:4px 0 8px}
+.phase p{font-size:.92rem;color:var(--muted);margin:0 0 8px}
+@media(max-width:900px){.phases{grid-template-columns:1fr}.phase{border-right:0;border-bottom:1px solid var(--line)}}
+
+.sectors{display:grid;grid-template-columns:repeat(4,1fr);gap:10px}
+.sectors button{font:inherit;font-family:var(--display);text-transform:uppercase;text-align:center;padding:16px 8px;font-size:1rem;color:var(--green);background:#fff;border:2px solid var(--line);border-radius:10px;cursor:pointer;display:flex;flex-direction:column;align-items:center;gap:8px;transition:border-color .15s,background .15s,color .15s,box-shadow .15s}
+.sectors button:hover{border-color:var(--orange)}
+.sectors button[aria-pressed="true"]{background:var(--green);color:#fff;border-color:var(--green);box-shadow:0 5px 0 var(--orange)}
+.sectors svg{width:32px;height:32px;fill:none;stroke:currentColor;stroke-width:1.7;stroke-linecap:round;stroke-linejoin:round}
+@media(max-width:700px){.sectors{grid-template-columns:1fr 1fr}}
+
+.partners{display:grid;grid-template-columns:repeat(4,1fr);gap:12px}
+.partners div{border:1px solid var(--line);border-radius:8px;padding:14px;background:#fff}
+.partners b{display:block;color:var(--green)}
+.partners span{font-size:.84rem;color:var(--muted)}
+@media(max-width:900px){.partners{grid-template-columns:1fr 1fr}}
+
+blockquote{margin:0;background:#fff;border:1px solid var(--line);border-top:5px solid var(--orange);padding:22px;border-radius:0 0 10px 10px}
+blockquote p{font-size:1.02rem;font-weight:600}
+blockquote footer{font-size:.86rem;color:var(--muted)}
+
+details{border-bottom:1px solid var(--line);padding:16px 0}
+summary{font-weight:800;cursor:pointer;color:var(--green);font-size:1.02rem;list-style:none;display:flex;justify-content:space-between;gap:16px}
+summary::-webkit-details-marker{display:none}
+summary::after{content:"+";font-family:var(--display);color:var(--orange);font-size:1.4rem;line-height:1}
+details[open] summary::after{content:"–"}
+details p{margin:10px 0 0;color:#34413A;max-width:75ch}
+
+.res{display:grid;gap:8px;align-content:start}
+.res h3{font-size:1.05rem}
+.res p{font-size:.92rem;color:var(--muted);margin:0}
+
+footer.site{background:var(--green-deep);color:#CFE0D6;padding:54px 0 90px;font-size:.92rem}
+footer.site a{color:#fff;text-decoration:none}
+footer.site a:hover{text-decoration:underline}
+footer.site h4{color:#fff;font-size:.95rem;margin-bottom:10px;font-weight:800}
+.foot-grid{display:grid;grid-template-columns:1.4fr 1fr 1fr 1.2fr;gap:30px}
+.foot-grid ul{list-style:none;padding:0;margin:0;display:grid;gap:6px}
+@media(max-width:800px){.foot-grid{grid-template-columns:1fr 1fr}}
+.motto{font-family:var(--display);text-transform:uppercase;font-size:1.3rem;color:#fff;line-height:1.15;margin-top:14px}
+.motto span{color:var(--orange);display:block}
+
+.sticky-cta{position:fixed;left:0;right:0;bottom:0;z-index:40;background:#fff;border-top:3px solid var(--orange);padding:10px 16px calc(10px + env(safe-area-inset-bottom,0px));display:flex;gap:10px;justify-content:center;align-items:center;flex-wrap:wrap}
+.sticky-cta span{font-weight:700;font-size:.92rem}
+@media(max-width:600px){.sticky-cta span{display:none}}
+@media(prefers-reduced-motion:reduce){*{transition:none!important;scroll-behavior:auto!important}}
+/* graphics + motion */
+/* ---- explainer film ---- */
+.film{border:2px solid var(--green);border-radius:14px;overflow:hidden;background:var(--green);box-shadow:10px 10px 0 var(--orange);margin:0 10px 10px 0}
+.film-stage{position:relative;aspect-ratio:16/9;container-type:inline-size;overflow:hidden;background:var(--green);color:#fff}
+.scene{position:absolute;inset:0;display:flex;flex-direction:column;justify-content:center;padding:5cqw 7cqw;opacity:0;visibility:hidden;transition:opacity .5s,visibility .5s}
+.scene.on{opacity:1;visibility:visible}
+.scene.lt{background:var(--cream);color:var(--ink)}
+.scene .k{font:800 1.9cqw var(--body);color:var(--gold);margin-bottom:1.4cqw}.scene.lt .k{color:var(--orange-deep)}
+.scene .big{font-family:var(--display);font-size:19cqw;line-height:.95;color:var(--orange)}
+.scene .t{font-family:var(--display);text-transform:uppercase;font-size:5.4cqw;line-height:1.06}.scene.lt .t{color:var(--green)}
+.scene .s{font:600 2.5cqw/1.4 var(--body);margin-top:1.8cqw;max-width:30em}
+.scene .src{font:500 1.5cqw var(--body);opacity:.75;margin-top:1.5cqw}
+.scene.on .a{animation:frise .7s cubic-bezier(.2,.7,.2,1) both;animation-delay:calc(var(--i,0)*.4s)}
+.scene.on .pop{animation:pop .5s cubic-bezier(.3,1.5,.5,1) both;animation-delay:calc(var(--i,0)*.28s + .5s)}
+.scene.on .grow{animation:grow 2.2s .6s ease both;transform-origin:left}
+.scene.on .fl{animation:fl .7s .6s both}.scene.on .fr{animation:fr .7s .9s both}
+.scene.on .ringfill{animation:ring 1.8s .4s ease both}
+@keyframes frise{from{opacity:0;transform:translateY(26px)}}
+@keyframes pop{from{opacity:0;transform:scale(.3)}}
+@keyframes grow{from{transform:scaleX(0)}}
+@keyframes fl{from{opacity:0;transform:translateX(-14%)}}@keyframes fr{from{opacity:0;transform:translateX(14%)}}
+@keyframes ring{from{stroke-dashoffset:327}}
+.pieces{display:flex;flex-wrap:wrap;gap:2cqw;margin:3cqw 0 1cqw}
+.pieces b{font:800 2.4cqw var(--body);background:#fff;border:.3cqw solid var(--green);color:var(--green);padding:1.6cqw 2.2cqw;border-radius:1cqw}
+.pieces b:nth-child(1){transform:rotate(-6deg)}.pieces b:nth-child(2){transform:rotate(4deg) translateY(1.4cqw)}.pieces b:nth-child(3){transform:rotate(-3deg) translateY(-.8cqw)}.pieces b:nth-child(4){transform:rotate(7deg) translateY(1cqw)}
+.jrow{position:relative;display:grid;grid-template-columns:repeat(8,1fr);margin-top:4cqw}
+.jline{position:absolute;top:2.9cqw;left:6.25%;right:6.25%;height:.4cqw;background:rgba(255,255,255,.5)}
+.jn{text-align:center;position:relative}
+.jn b{display:grid;place-items:center;width:6.2cqw;height:6.2cqw;border-radius:50%;margin:0 auto;font-family:var(--display);font-weight:400;font-size:3cqw;background:#fff;color:var(--green)}
+.jn.lp b{background:var(--orange);color:#fff}.jn:last-child b{background:var(--gold);color:var(--ink)}
+.jn span{display:block;font:700 1.45cqw var(--body);margin-top:1cqw}
+.kpx{display:grid;grid-template-columns:24cqw 1fr;gap:5cqw;align-items:center}
+.kpx svg{width:100%;height:auto}.kpx svg text{font-family:var(--display);font-size:40px;fill:var(--green);text-anchor:middle}
+.fb{margin-top:1.5cqw}.fb span{font:700 1.8cqw var(--body)}
+.fb i{display:block;height:1.2cqw;background:#E9DFCB;border-radius:1cqw;margin-top:.5cqw;overflow:hidden}
+.fb u{display:block;height:100%;background:var(--orange);width:var(--w)}
+.two{display:grid;grid-template-columns:1fr 1fr;gap:3cqw;margin-top:3.5cqw}
+.two div{background:#fff;color:var(--green);padding:3cqw;border-radius:1.2cqw;border-bottom:.8cqw solid var(--orange)}
+.two b{font-family:var(--display);font-weight:400;font-size:5cqw;text-transform:uppercase;display:block;line-height:1.1}
+.two span{font:600 2cqw/1.35 var(--body);color:var(--ink)}
+.flogo{font-family:var(--display);font-size:4cqw}.flogo b{color:var(--orange);font-weight:400}.flogo i{color:var(--green);font-style:normal}
+@container (max-width:560px){.scene .s{font-size:3.5cqw}.scene .k{font-size:2.8cqw}.jn span{font-size:1.95cqw}.scene .src{font-size:2.3cqw}.two span{font-size:2.9cqw}.fb span{font-size:2.4cqw}.fb{margin-top:.9cqw}.scene{padding:4cqw 6cqw}.scene .t{font-size:4.8cqw}.kpx{gap:4cqw;grid-template-columns:20cqw 1fr}.kpx .s{margin-top:1cqw;font-size:3cqw}.pieces b{font-size:2.9cqw;padding:1.3cqw 1.6cqw}}
+.film-bar{display:flex;gap:10px;align-items:center;padding:10px 14px;background:var(--green-deep)}
+.film-bar button{font:800 .82rem var(--body);background:transparent;color:#fff;border:1.5px solid rgba(255,255,255,.6);border-radius:6px;padding:7px 12px;cursor:pointer;min-width:64px}
+.film-bar button:hover{background:#fff;color:var(--green)}
+.segs{flex:1;display:grid;grid-auto-flow:column;grid-auto-columns:1fr;gap:4px}
+.segs i{height:6px;background:rgba(255,255,255,.3);border-radius:3px;overflow:hidden;cursor:pointer}
+.segs b{display:block;height:100%;width:0;background:var(--orange)}
+@media(max-width:520px){.film-bar button.opt{display:none}}
+/* ---- marquee ---- */
+.mq{background:var(--cream);overflow:hidden;border-bottom:1px solid var(--line);padding:14px 0}
+.mq div{display:flex;width:max-content;animation:mq 40s linear infinite;font-family:var(--display);text-transform:uppercase;color:var(--green);font-size:1.15rem;white-space:nowrap}
+.mq span{padding-right:44px}.mq span::before{content:"";display:inline-block;width:10px;height:10px;background:var(--orange);margin-right:44px;vertical-align:1px}
+.mq:hover div{animation-play-state:paused}
+@keyframes mq{to{transform:translateX(-50%)}}
+/* ---- illustrated screens ---- */
+.mocks{display:grid;grid-template-columns:1fr 1fr;gap:22px}.mocks>*{min-width:0}
+@media(max-width:800px){.mocks{grid-template-columns:1fr}}
+.mock{background:#fff;border:2px solid var(--green);border-radius:12px;overflow:hidden}
+.mock-bar{background:var(--green);color:#fff;padding:9px 14px;font:800 .84rem var(--body);display:flex;justify-content:space-between;gap:10px}
+.mock-bar em{font-style:normal;font-weight:600;color:#CFE0D6}
+.mock-body{padding:16px;font-size:.9rem;display:grid;gap:9px;align-content:start;min-height:236px}
+.mrow{display:flex;align-items:center;gap:10px;border:1px solid var(--line);border-radius:8px;padding:8px 10px}
+.mrow b{flex:1;font-weight:700}.mrow small{color:var(--muted)}
+.tick{width:18px;height:18px;border-radius:50%;border:2px solid #CFC6B4;flex:none;display:grid;place-items:center}
+.tick.d{background:var(--green);border-color:var(--green)}.tick.d::after{content:"";width:8px;height:4px;border-left:2px solid #fff;border-bottom:2px solid #fff;transform:rotate(-45deg) translateY(-1px)}
+.pill{font:800 .72rem var(--body);padding:4px 9px;border-radius:999px;background:#E8F3EC;color:var(--green);white-space:nowrap}
+.pill.w{background:#FFE7D3;color:#9A4406;animation:blink 1.8s infinite}
+.gbar{height:8px;background:#EFE7D8;border-radius:4px;overflow:hidden}
+.gbar i{display:block;height:100%;width:var(--w);background:var(--orange);transition:width 1.1s ease .2s}
+.js .mock:not(.seen) .gbar i{width:0}
+.heat{display:grid;grid-template-columns:54px repeat(5,1fr);gap:5px;align-items:center;font-size:.72rem;font-weight:700;color:var(--muted)}
+.heat i{height:26px;border-radius:5px;transition:transform .4s cubic-bezier(.3,1.4,.5,1);transition-delay:calc(var(--k)*35ms)}
+.heat i.l3{background:var(--green)}.heat i.l2{background:#8DBBA0}.heat i.l1{background:var(--orange)}
+.js .mock:not(.seen) .heat i{transform:scale(0)}
+.heat span{text-align:center}
+.legend{display:flex;gap:14px;font-size:.76rem;color:var(--muted);flex-wrap:wrap}
+.legend span::before{content:"";display:inline-block;width:10px;height:10px;border-radius:3px;margin-right:5px;background:var(--c)}
+.score{font-family:var(--display);font-size:1.2rem;color:var(--green);width:34px;text-align:right}
+.mchips{display:flex;gap:6px;flex-wrap:wrap}.mchips span{font:700 .74rem var(--body);border:1.5px solid var(--green);color:var(--green);padding:3px 9px;border-radius:999px}
+/* ---- motion across the page ---- */
+.rv{transition:opacity .6s ease,transform .6s ease;transition-delay:var(--d,0ms)}
+.js .rv:not(.seen){opacity:0;transform:translateY(18px)}
+.js .rule.rv:not(.seen){opacity:1;transform:scaleX(0)}
+.rule.rv{transform-origin:left;transition:transform .9s cubic-bezier(.2,.7,.2,1)}
+.panel,.stat,blockquote,.partners div{transition:opacity .6s ease,transform .6s ease,border-color .2s,box-shadow .2s;transition-delay:var(--d,0ms)}
+.panel:hover,.partners div:hover{border-color:var(--orange);box-shadow:0 5px 0 var(--orange)}
+.hero .kp{animation:floaty 7s ease-in-out infinite}
+@keyframes floaty{50%{transform:translateY(-8px)}}
+.swap{animation:frise .55s cubic-bezier(.2,.7,.2,1) both}
+details[open] p{animation:frise .3s both}
+.btn-primary{position:relative;overflow:hidden}
+.btn-primary::after{content:"";position:absolute;inset:0;background:linear-gradient(100deg,transparent 35%,rgba(255,255,255,.35) 50%,transparent 65%);transform:translateX(-120%);transition:transform .6s}
+.btn-primary:hover::after{transform:translateX(120%)}
+
+.gap{display:grid;grid-template-columns:minmax(0,380px) 1fr;gap:36px;align-items:center;margin-top:30px}
+.dots{display:grid;grid-template-columns:repeat(20,1fr);gap:5px}
+.dots i{aspect-ratio:1;border-radius:50%;border:2px solid #D8CDB8;transition:background .35s,border-color .35s}
+.dots i.on{background:var(--orange);border-color:var(--orange)}
+.dots.pre i.on{background:transparent;border-color:#D8CDB8}
+.gap p{font-size:1.15rem;margin:0;max-width:34ch}
+.gap p b{font-family:var(--display);font-weight:400;font-size:2.4rem;color:var(--green);display:block;line-height:1.1;text-transform:uppercase}
+.gap .key{display:flex;gap:18px;font-size:.84rem;color:var(--muted);margin-top:12px;flex-wrap:wrap}
+.gap .key span::before{content:"";display:inline-block;width:10px;height:10px;border-radius:50%;margin-right:6px;border:2px solid #D8CDB8;vertical-align:-1px}
+.gap .key span:first-child::before{background:var(--orange);border-color:var(--orange)}
+.loopwrap{display:grid;grid-template-columns:1fr minmax(0,430px);gap:36px;align-items:center}
+.loop .ring{fill:none;stroke:var(--orange);stroke-width:3;stroke-dasharray:2 9;stroke-linecap:round}
+.loop .n{fill:var(--orange)}.loop .nt{font-family:var(--display);font-size:22px;fill:#fff;text-anchor:middle}
+.loop .lb{font:800 13px var(--body);fill:var(--green);text-anchor:middle}
+.loop .hub{fill:#fff;stroke:var(--green);stroke-width:3}
+.loop .ht{font-family:var(--display);font-size:16px;fill:var(--green);text-anchor:middle;letter-spacing:.03em}
+.loop .hs{font:700 9.5px var(--body);fill:var(--muted);text-anchor:middle}
+.loop .ar{fill:var(--orange)}.loop .mv{fill:var(--green)}
+.plat{display:grid;grid-template-columns:minmax(0,440px) 1fr;gap:32px;align-items:center;margin-top:24px}
+.plat .tabpanel{grid-template-columns:1fr}
+#hub{width:100%;height:auto;display:block}
+#hub .sp{stroke:#CDBFA5;stroke-width:2}
+#hub .mv{fill:var(--orange)}
+#hub .node{cursor:pointer}
+#hub .node rect{fill:#fff;stroke:var(--green);stroke-width:2}
+#hub .node text{font:800 13px var(--body);fill:var(--green);text-anchor:middle;pointer-events:none}
+#hub .node.on rect{fill:var(--green)}#hub .node.on text{fill:#fff}
+#hub .node:focus-visible rect{stroke:var(--gold);stroke-width:4}
+#hub .core{fill:var(--green)}
+#hub .ct{font-family:var(--display);font-size:17px;fill:#fff;text-anchor:middle;letter-spacing:.03em}
+#hub .cs{font:700 9.5px var(--body);fill:#CFE0D6;text-anchor:middle}
+.hubcap{font-size:.84rem;color:var(--muted);text-align:center;margin:6px 0 0}
+@media(max-width:900px){.gap,.loopwrap,.plat{grid-template-columns:1fr}.loopwrap svg{max-width:380px;margin:0 auto}}
+@media(min-width:901px){.steps{align-items:end}.steps .panel{border-top:5px solid var(--orange)}.steps .panel:nth-child(2){padding-top:52px}.steps .panel:nth-child(3){padding-top:80px}.steps .panel:nth-child(4){padding-top:108px}}
+.pipe{grid-column:1/-1;list-style:none;margin:10px 0 0;padding:0;display:grid;grid-template-columns:repeat(5,1fr);gap:0}
+.pipe li{position:relative;padding:0 10px;text-align:center;font-weight:700;font-size:.92rem}
+.pipe li small{display:block;font-weight:500;color:#CFE0D6;font-size:.8rem;margin-top:2px}
+.pipe li span{font-family:var(--display);font-size:1.3rem;width:46px;height:46px;border-radius:50%;border:2px solid #fff;display:grid;place-items:center;margin:0 auto 10px;background:var(--green);position:relative;z-index:1;animation:hop 6s infinite}
+.pipe li:nth-child(2) span{animation-delay:1.2s}.pipe li:nth-child(3) span{animation-delay:2.4s}.pipe li:nth-child(4) span{animation-delay:3.6s}.pipe li:nth-child(5) span{animation-delay:4.8s}
+.pipe li:not(:last-child)::after{content:"";position:absolute;top:22px;left:50%;width:100%;height:2px;background:rgba(255,255,255,.45)}
+@keyframes hop{0%,18%{background:var(--orange);border-color:var(--orange);transform:scale(1.12)}24%,100%{background:var(--green);border-color:#fff;transform:scale(1)}}
+@media(max-width:700px){.pipe{grid-template-columns:1fr;gap:14px}.pipe li{display:grid;grid-template-columns:46px 1fr;gap:4px 14px;text-align:left;padding:0;align-items:center}.pipe li span{margin:0;grid-row:span 2}.pipe li::after{display:none}}
+.kp-ver::before{content:"";display:inline-block;width:8px;height:8px;border-radius:50%;background:var(--gold);margin-right:7px;animation:blink 1.8s infinite}
+@keyframes blink{50%{opacity:.25}}
+@media(prefers-reduced-motion:reduce){*{animation:none!important}.mv{display:none}}
+
+@media print{.nav,.sticky-cta,footer.site,.band:not(#proposal),.hero,.proof{display:none!important}#proposal .prop-form{display:none}#proposal{background:#fff;color:#000}}
+
+/* ===================== v2 additions ===================== */
+.skip{position:absolute;left:-999px;top:8px;background:var(--green);color:#fff;padding:10px 16px;border-radius:6px;z-index:100;font-weight:800;text-decoration:none}
+.skip:focus{left:12px}
+#prog{position:fixed;top:0;left:0;height:4px;width:0;background:linear-gradient(90deg,var(--orange),var(--gold));z-index:90;pointer-events:none}
+.band-green .panel h3,.band-green .prop h3{color:var(--green)}
+.band-green .panel p{color:var(--ink)}
+.band-green .panel .fine{color:var(--muted)}
+.band-green .panel .btn-ghost{color:var(--green);border-color:var(--green)}
+.band-green .panel .btn-ghost:hover{background:var(--green);color:#fff}
+
+/* nav: dropdowns + active link */
+.nav-links{gap:18px}
+.nav-links a.active:not(.btn){color:var(--orange-deep);box-shadow:0 4px 0 var(--orange)}
+.dd{position:relative}
+.ddb{font:700 .92rem var(--body);background:none;border:0;color:var(--ink);cursor:pointer;padding:0;display:inline-flex;gap:5px;align-items:center}
+.ddb::after{content:"";width:7px;height:7px;border-right:2px solid currentColor;border-bottom:2px solid currentColor;transform:rotate(45deg) translateY(-2px);transition:transform .15s}
+.ddb[aria-expanded="true"]::after{transform:rotate(225deg)}
+.ddb:hover{color:var(--orange-deep)}
+.ddb.login{border:2px solid var(--green);color:var(--green);border-radius:6px;padding:8px 14px}
+.ddb.login:hover{background:var(--green);color:#fff}
+.ddm{position:absolute;right:0;top:calc(100% + 14px);background:#fff;border:1px solid var(--line);border-top:4px solid var(--orange);border-radius:0 0 10px 10px;box-shadow:0 18px 34px rgba(0,0,0,.14);min-width:250px;padding:8px;z-index:60}
+.ddm[hidden]{display:none}
+.ddm a{display:block;padding:10px 12px;border-radius:6px;font-weight:700}
+.ddm a small{display:block;font-weight:500;color:var(--muted);font-size:.78rem}
+.ddm a:hover{background:var(--cream)}
+@media(max-width:980px){.dd{width:100%}.ddm{position:static;box-shadow:none;border:0;border-left:3px solid var(--orange);border-radius:0;padding:4px 0 0 8px;min-width:0}.ddb.login{width:100%;justify-content:space-between}}
+
+/* hero depth */
+.hero{position:relative;overflow:hidden}
+.hero::before{content:"";position:absolute;inset:0;background-image:radial-gradient(rgba(15,81,50,.16) 1.3px,transparent 1.3px);background-size:24px 24px;-webkit-mask-image:linear-gradient(115deg,transparent 35%,#000 100%);mask-image:linear-gradient(115deg,transparent 35%,#000 100%);pointer-events:none}
+.hero::after{content:"";position:absolute;right:-120px;top:-140px;width:420px;height:420px;border-radius:50%;background:radial-gradient(circle,rgba(244,123,32,.22),transparent 68%);pointer-events:none}
+.hero>.wrap{position:relative;z-index:1}
+.hero-facts li{background:#fff;border:1px solid var(--line);padding:6px 12px;border-radius:999px}
+
+/* trust bar */
+.trustbar{background:#fff;border-bottom:1px solid var(--line);padding:14px 0}
+.trustbar .wrap{display:flex;flex-wrap:wrap;gap:8px 26px;align-items:center;justify-content:center;font-size:.86rem;font-weight:700;color:var(--muted)}
+.trustbar .b{display:inline-flex;gap:7px;align-items:center;color:var(--green)}
+.trustbar svg{width:18px;height:18px;stroke:var(--orange);fill:none;stroke-width:2;stroke-linecap:round;stroke-linejoin:round}
+
+/* gap calculator */
+.gapcalc{border-top:5px solid var(--orange)}
+.gapcalc .calc-out{grid-template-columns:repeat(3,1fr)}
+@media(max-width:560px){.gapcalc .calc-out{grid-template-columns:1fr}}
+
+/* value cards */
+.vgrid{display:grid;grid-template-columns:repeat(3,1fr);gap:18px;margin-top:16px}
+.vgrid>*{min-width:0}
+@media(max-width:900px){.vgrid{grid-template-columns:1fr 1fr}}
+@media(max-width:600px){.vgrid{grid-template-columns:1fr}}
+.vcard h3{font-size:1.05rem;margin:4px 0 10px}
+.vcard ul.ticks li{font-size:.92rem;padding-top:5px;padding-bottom:5px}
+.vcard ul.ticks li::before{top:13px}
+
+/* industry radar */
+.radar{margin-top:18px;display:grid;grid-template-columns:1.15fr .85fr;gap:26px;background:#fff;border:1px solid var(--line);border-left:6px solid var(--orange);border-radius:0 10px 10px 0;padding:24px}
+.radar>*{min-width:0}
+.radar h3{font-size:1.5rem}
+.radar .lbl{font-size:.74rem;font-weight:800;letter-spacing:.08em;text-transform:uppercase;color:var(--orange-deep);margin:14px 0 6px}
+.rtags{display:flex;flex-wrap:wrap;gap:6px}
+.rtags span{background:var(--cream);border:1px solid var(--line);border-radius:999px;padding:4px 11px;font-size:.84rem;font-weight:600}
+.radar .help{background:var(--cream);padding:18px;border-radius:8px;align-self:start}
+@media(max-width:800px){.radar{grid-template-columns:1fr}}
+
+/* comparison table */
+.cmp{min-width:640px}
+.cmp th:last-child,.cmp td:last-child{background:#E8F3EC}
+.cmp th:last-child{background:var(--orange)}
+.cmp td{text-align:center}.cmp td:first-child{text-align:left}
+.cmp .y{color:var(--green);font-weight:800}.cmp .p{color:#9A6B06;font-weight:700}.cmp .n{color:#B3261E;font-weight:700}
+
+/* newsletter + polls */
+.popts{margin:12px 0}
+.popt{display:block;width:100%;text-align:left;font:600 .95rem var(--body);padding:11px 14px;border:1.5px solid #CFC6B4;border-radius:8px;background:#fff;margin-bottom:8px;cursor:pointer;color:var(--ink)}
+.popt:hover{border-color:var(--green)}
+.popt[aria-pressed="true"]{border-color:var(--green);background:#E8F3EC;box-shadow:inset 5px 0 0 var(--orange)}
+.nlbox{border-top:5px solid var(--orange)}
+
+/* chatbot */
+.cb-fab{position:fixed;right:16px;bottom:calc(var(--cta,64px) + 14px);z-index:70;background:var(--green);color:#fff;border:0;border-radius:999px;padding:13px 18px;font:800 .9rem var(--body);box-shadow:0 8px 24px rgba(0,0,0,.28);cursor:pointer;display:flex;gap:9px;align-items:center}
+.cb-fab:hover{background:var(--green-deep)}
+.cb-fab i{width:9px;height:9px;border-radius:50%;background:var(--gold);animation:blink 1.8s infinite}
+.cb{position:fixed;right:16px;bottom:calc(var(--cta,64px) + 70px);width:min(380px,calc(100vw - 32px));max-height:min(560px,calc(100vh - var(--cta,64px) - 96px));z-index:71;background:#fff;border:2px solid var(--green);border-radius:14px;box-shadow:10px 10px 0 rgba(15,81,50,.18);display:none;flex-direction:column;overflow:hidden}
+.cb.open{display:flex}
+.cb-h{background:var(--green);color:#fff;padding:12px 16px;display:flex;justify-content:space-between;align-items:center;gap:10px}
+.cb-h strong{font-family:var(--display);font-weight:400;text-transform:uppercase;letter-spacing:.02em;font-size:1.1rem;display:block;line-height:1.1}
+.cb-h small{color:#CFE0D6;font-size:.74rem}
+.cb-h button{background:none;border:0;color:#fff;font-size:1.5rem;cursor:pointer;line-height:1}
+.cb-m{padding:14px;overflow-y:auto;display:grid;gap:10px;align-content:start;flex:1;background:var(--cream)}
+.msg{max-width:90%;padding:10px 13px;border-radius:12px;font-size:.92rem;line-height:1.5;overflow-wrap:anywhere}
+.msg.b{background:#fff;border:1px solid var(--line);border-top-left-radius:2px}
+.msg.u{background:var(--green);color:#fff;justify-self:end;border-top-right-radius:2px}
+.msg a{font-weight:800}
+.cb-q{display:flex;flex-wrap:wrap;gap:6px;padding:8px 14px;background:var(--cream);border-top:1px solid var(--line)}
+.cb-q button{font:700 .8rem var(--body);border:1.5px solid var(--green);background:#fff;color:var(--green);border-radius:999px;padding:6px 11px;cursor:pointer}
+.cb-q button:hover{background:var(--green);color:#fff}
+.cb-f{display:flex;gap:8px;padding:10px 12px;border-top:1px solid var(--line);background:#fff}
+.cb-f input{flex:1;padding:10px 12px}
+@media(max-width:600px){.cb-fab span{display:none}.cb-fab{padding:14px}}
+
+/* back to top */
+#toTop{position:fixed;left:16px;bottom:calc(var(--cta,64px) + 14px);z-index:60;width:44px;height:44px;border-radius:50%;border:2px solid var(--green);background:#fff;color:var(--green);font-size:1.2rem;font-weight:800;cursor:pointer;opacity:0;pointer-events:none;transition:opacity .2s}
+#toTop.show{opacity:1;pointer-events:auto}
+#toTop:hover{background:var(--green);color:#fff}
+
+/* booking slots */
+.slots{display:grid;grid-template-columns:1fr 1fr;gap:12px;margin-top:6px}
+@media(max-width:560px){.slots{grid-template-columns:1fr}}
+@media print{.cb-fab,.cb,#toTop,#prog{display:none!important}}
+
+/* ===== ANIM: motion, floating chips, network canvas, video player ===== */
+#net{position:absolute;inset:0;width:100%;height:100%;pointer-events:none;z-index:0}
+.hero .blob{position:absolute;border-radius:50%;filter:blur(60px);opacity:.55;pointer-events:none;z-index:0;animation:drift 18s ease-in-out infinite alternate}
+.hero .b1{width:380px;height:380px;background:rgba(244,123,32,.28);left:-110px;bottom:-130px}
+.hero .b2{width:340px;height:340px;background:rgba(15,81,50,.16);right:30%;top:-150px;animation-duration:24s;animation-delay:-6s}
+@keyframes drift{to{transform:translate(70px,-50px) scale(1.15)}}
+.kpwrap{position:relative}
+.fchip{position:absolute;z-index:2;background:#fff;border:2px solid var(--green);border-radius:999px;padding:7px 13px;font:800 .78rem var(--body);color:var(--green);box-shadow:4px 4px 0 var(--orange);animation:chipfloat 5s ease-in-out infinite;white-space:nowrap}
+.fchip.c1{left:14px;top:-18px}.fchip.c2{right:-6px;top:-18px;animation-delay:-1.6s}.fchip.c3{right:14%;bottom:-20px;animation-delay:-3.2s}
+.fchip::before{content:"";display:inline-block;width:8px;height:8px;border-radius:50%;background:var(--orange);margin-right:7px}
+@keyframes chipfloat{50%{transform:translateY(-9px)}}
+@media(max-width:520px){.fchip{font-size:.68rem;padding:5px 9px}.fchip.c1{left:8px}.fchip.c2{right:2px}}
+#heroA{animation:ringp 2.8s infinite}
+@keyframes ringp{0%{box-shadow:0 0 0 0 rgba(244,123,32,.55)}70%{box-shadow:0 0 0 14px rgba(244,123,32,0)}100%{box-shadow:0 0 0 0 rgba(244,123,32,0)}}
+.vcard,.res,.partners div{position:relative;overflow:hidden}
+.vcard::after,.res::after{content:"";position:absolute;inset:0;background:linear-gradient(105deg,transparent 40%,rgba(244,123,32,.14) 50%,transparent 60%);transform:translateX(-120%);transition:transform .8s;pointer-events:none}
+.vcard:hover::after,.res:hover::after{transform:translateX(120%)}
+.proof b{background:linear-gradient(100deg,#fff 40%,#F6C98E 50%,#fff 60%);background-size:250% 100%;-webkit-background-clip:text;background-clip:text;-webkit-text-fill-color:transparent;animation:shimmer 6s linear infinite}
+@keyframes shimmer{from{background-position:120% 0}to{background-position:-120% 0}}
+.stage[aria-selected="true"] .num{animation:hop2 1.4s ease-in-out infinite}
+@keyframes hop2{50%{transform:scale(1.14)}}
+
+/* ===== SUPA: accounts dialog ===== */
+dialog.auth{border:0;padding:0;border-radius:14px;width:min(460px,94vw);max-height:92vh;overflow:visible;box-shadow:12px 12px 0 var(--orange);color:var(--ink)}
+dialog.auth::backdrop{background:rgba(10,58,36,.84);backdrop-filter:blur(3px)}
+.auth-in{padding:26px 26px 22px;max-height:92vh;overflow-y:auto;border-radius:14px}
+.auth-in h3{font-size:1.5rem;margin:2px 0 14px}
+.ax{position:absolute;right:-12px;top:-14px;width:38px;height:38px;border-radius:50%;border:2px solid #fff;background:var(--green);color:#fff;font-size:1.3rem;cursor:pointer;z-index:2;line-height:1}
+.auth .tabs{margin-bottom:14px}
+.auth [data-f]{display:grid;gap:14px}
+.auth [hidden]{display:none!important}
+.auth .linkbtn{background:none;border:0;padding:0;font:700 .86rem var(--body);color:var(--green);text-decoration:underline;cursor:pointer}
+.auth .linkbtn:hover{color:var(--orange-deep)}
+.auth .notice{background:#FFF3E3;border-left:5px solid var(--orange);padding:10px 14px;font-size:.86rem;margin-bottom:14px}
+.ok.fail{background:#FDECEA;border-color:#B3261E;color:#7A1912}
+.acct-note{padding:10px 12px;font-size:.84rem;color:var(--muted);border-bottom:1px solid var(--line);margin-bottom:4px;overflow-wrap:anywhere}
+</style>
+</head>
+<body>
+<a class="skip" href="#top">Skip to content</a><div id="prog" aria-hidden="true"></div>
+
+<header class="nav">
+  <div class="wrap nav-in">
+    <a class="logo" href="#top" aria-label="SkillWiz home"><b>SKILL</b><i>WIZ</i></a>
+    <button class="nav-toggle" aria-expanded="false" aria-controls="navlinks">Menu</button>
+    <nav class="nav-links" id="navlinks" aria-label="Main">
+      <div class="dd">
+        <button class="ddb" type="button" aria-expanded="false" aria-haspopup="true">Who it is for</button>
+        <div class="ddm" hidden>
+          <a href="#leadership">University management<small>Vice-Chancellors, owners, principals</small></a>
+          <a href="#faculty">Faculty, HoDs &amp; T&amp;P<small>Mentoring and placement teams</small></a>
+          <a href="#students">Students<small>Readiness check and Karm-Patri</small></a>
+          <a href="#employers">Employers<small>Verified Pool and Day-0 training</small></a>
+        </div>
+      </div>
+      <a href="#platform">Platform</a>
+      <a href="#industries">Industries</a>
+      <a href="#pricing">Pricing</a>
+      <a href="#engage">Insights</a>
+      <a href="#careers">Careers</a>
+      <div class="dd">
+        <button class="ddb login" type="button" aria-expanded="false" aria-haspopup="true">Login</button>
+        <div class="ddm" hidden>
+          <a href="#login" data-auth="student">Student login<small>Your path and Karm-Patri</small></a>
+          <a href="#login" data-auth="faculty">Faculty / mentor login<small>Mentor console</small></a>
+          <a href="#login" data-auth="tpo">TPO &amp; department login<small>Dashboards and drives</small></a>
+          <a href="#login" data-auth="leadership">University leadership login<small>Institution dashboard</small></a>
+          <a href="#login" data-auth="recruiter">Recruiter login<small>Verified Pool</small></a>
+        </div>
+      </div>
+      <a class="btn btn-primary btn-sm" href="#proposal">Build your proposal</a>
+    </nav>
+  </div>
+</header>
+
+<main id="top">
+
+<!-- HERO -->
+<section class="hero">
+  <canvas id="net" aria-hidden="true"></canvas><span class="blob b1" aria-hidden="true"></span><span class="blob b2" aria-hidden="true"></span>
+  <div class="wrap">
+    <div class="who" role="group" aria-label="Choose who you are">
+      <span>I am from</span>
+      <button class="chip" data-aud="lead" aria-pressed="true">University management</button>
+      <button class="chip" data-aud="fac" aria-pressed="false">Faculty</button>
+      <button class="chip" data-aud="stu" aria-pressed="false">Students</button>
+      <button class="chip" data-aud="emp" aria-pressed="false">A hiring company</button>
+    </div>
+    <div class="hero-grid">
+      <div aria-live="polite">
+        <h1 id="heroH">Degrees don't get hired.<em>Proof does.</em></h1>
+        <p class="sub" id="heroP">SkillWiz 2.0 turns four years of college into verified, evidence-backed student capability, recorded in each student's Karm-Patri.</p>
+        <div class="hero-cta">
+          <a class="btn btn-primary" id="heroA" href="#proposal"></a>
+          <a class="btn btn-ghost" id="heroB" href="#karm-patri"></a>
+        </div>
+        <ul class="hero-facts">
+          <li>1,50,000 students with active access</li>
+          <li>20+ large private universities</li>
+          <li>One MoU, one SLA</li>
+        </ul>
+      </div>
+      <div class="kpwrap" data-px="0.05"><div class="kp" id="heroKp" aria-label="Sample Karm-Patri record"></div><span class="fchip c1" aria-hidden="true">Verified</span><span class="fchip c2" aria-hidden="true">Day-0 ready</span><span class="fchip c3" aria-hidden="true">Placeability 87</span></div>
+    </div>
+  </div>
+</section>
+
+<section class="proof" aria-label="SkillWiz at scale">
+  <div class="wrap proof-grid">
+    <div><b>1,50,000</b><span>students with active platform access</span></div>
+    <div><b>20+</b><span>large private universities served</span></div>
+    <div><b>7–10 years</b><span>average relationship with top clients</span></div>
+    <div><b>17,962</b><span>questions across 9 streams</span></div>
+  </div>
+</section>
+
+<div class="trustbar" aria-label="Built for accreditation and compliance">
+  <div class="wrap">
+    <span class="b"><svg viewBox="0 0 24 24"><path d="M12 3l7 3v5c0 5-3 8-7 10-4-2-7-5-7-10V6z"/><path d="M9 12l2 2 4-4"/></svg>NAAC · NBA · NIRF-ready reporting</span>
+    <span class="b"><svg viewBox="0 0 24 24"><rect x="5" y="11" width="14" height="9" rx="2"/><path d="M8 11V8a4 4 0 018 0v3"/></svg>DPDP Act 2023 aligned</span>
+    <span class="b"><svg viewBox="0 0 24 24"><circle cx="12" cy="8" r="4"/><path d="M4 21c1-5 4-7 8-7s7 2 8 7"/></svg>Role-based access for every stakeholder</span>
+    <span class="b"><svg viewBox="0 0 24 24"><path d="M4 12h6M14 12h6M10 8l4 4-4 4"/></svg>SSO and ERP / LMS integration</span>
+    <span class="b"><svg viewBox="0 0 24 24"><path d="M12 3v18M3 12h18"/></svg>Your data returned and deleted on exit</span>
+  </div>
+</div>
+
+<div class="mq" aria-hidden="true"><div id="mq"><span>Verified, not claimed</span><span>One MoU, one SLA</span><span>Day-0 productive</span><span>Employability and entrepreneurship</span><span>Owned by the University</span><span>Carried by the student for life</span></div></div>
+
+<!-- EXPLAINER -->
+<section class="band" id="film">
+  <div class="wrap">
+    <h2>SkillWiz 2.0 in 40 seconds</h2>
+    <hr class="rule">
+    <div class="film">
+      <div class="film-stage" id="stage" role="group" aria-label="Animated overview of SkillWiz 2.0 in six scenes">
+        <div class="scene on"><div class="k a">The starting point</div><div class="big a" style="--i:1">54.8%</div><div class="s a" style="--i:2">of Indian graduates are assessed as employable.</div><div class="src a" style="--i:3">India Skills Report 2025</div></div>
+        <div class="scene lt"><div class="t a">Universities already have the pieces</div><div class="pieces"><b class="pop">Training</b><b class="pop" style="--i:1">Assessment</b><b class="pop" style="--i:2">Projects</b><b class="pop" style="--i:3">Mentoring</b></div><div class="s a" style="--i:5">They run separately, often with separate vendors. Nobody sees the whole student.</div></div>
+        <div class="scene"><div class="t a">SkillWiz 2.0 joins them into one journey</div><div class="jrow"><i class="jline grow"></i>
+          <div class="jn"><b class="pop">1</b><span>Baseline</span></div><div class="jn"><b class="pop" style="--i:1">2</b><span>Set goal</span></div><div class="jn lp"><b class="pop" style="--i:2">3</b><span>Plan</span></div><div class="jn lp"><b class="pop" style="--i:3">4</b><span>Learn</span></div><div class="jn lp"><b class="pop" style="--i:4">5</b><span>Apply</span></div><div class="jn lp"><b class="pop" style="--i:5">6</b><span>Mentor</span></div><div class="jn"><b class="pop" style="--i:6">7</b><span>Mocks</span></div><div class="jn"><b class="pop" style="--i:7">8</b><span>Outcome</span></div></div>
+          <div class="s a" style="--i:7">Personalised to each student's starting point and goal, every semester.</div></div>
+        <div class="scene lt"><div class="kpx"><svg viewBox="0 0 130 130" aria-hidden="true"><circle cx="65" cy="65" r="52" fill="none" stroke="#E9DFCB" stroke-width="13"/><circle class="ringfill" cx="65" cy="65" r="52" fill="none" stroke="#F47B20" stroke-width="13" stroke-dasharray="327" stroke-dashoffset="42.5" transform="rotate(-90 65 65)"/><text x="65" y="79">87</text></svg>
+          <div><div class="t a">Every step lands in the Karm-Patri</div>
+          <div class="fb"><span>Cognitive 92</span><i><u class="grow" style="--w:92%"></u></i></div><div class="fb"><span>Coding 78</span><i><u class="grow" style="--w:78%"></u></i></div><div class="fb"><span>Core technical 85</span><i><u class="grow" style="--w:85%"></u></i></div>
+          <div class="s a" style="--i:4">A verified record the student carries for life. Sample values.</div></div></div></div>
+        <div class="scene"><div class="t a">Two outcomes, both counted</div><div class="two"><div class="fl"><b>A job</b><span>Role-aligned, evidence-backed and productive from Day 0.</span></div><div class="fr"><b>A venture</b><span>From ideation camp to incubation through EUTP.</span></div></div></div>
+        <div class="scene lt"><div class="flogo a"><b>SKILL</b><i>WIZ</i> 2.0</div><div class="big a" style="--i:1;font-size:15cqw">&#8377;2,500</div><div class="s a" style="--i:2">per active student per year for the core platform.</div><div class="t a" style="--i:4;font-size:3.6cqw;margin-top:2.5cqw">Start with an 8&#8211;12 week pilot on one cohort</div><div class="src a" style="--i:5">www.myskillwiz.com</div></div>
+      </div>
+      <div class="film-bar"><button type="button" id="fPlay">Play</button><div class="segs" id="segs"></div><button type="button" class="opt" id="fPrev">Back</button><button type="button" class="opt" id="fNext">Next</button></div>
+    </div>
+  </div>
+</section>
+
+<!-- CHALLENGE -->
+<section class="band" id="challenge">
+  <div class="wrap">
+    <h2>Content is not the problem. Knowing is.</h2>
+    <hr class="rule">
+    <p class="lede">Every university has courses, trainers and a placement cell. The harder management problem is knowing whether each student is moving from academic exposure to usable capability, and what should happen next.</p>
+    <div class="gap">
+      <div><div class="dots" id="dots" role="img" aria-label="100 dots, 55 filled: about 55 of every 100 Indian graduates are assessed as employable"></div>
+      <div class="key"><span>Assessed as employable</span><span>Not yet</span></div></div>
+      <p><b>55 of every 100</b>Indian graduates are assessed as employable. The other 45 are not, and most universities cannot say which students they are until the final year.</p>
+    </div>
+    <div class="panel gapcalc" id="gapcalc" style="margin-top:30px">
+      <div class="g2" style="align-items:center;gap:34px">
+        <div>
+          <span class="tag">What is your number?</span>
+          <h3 style="font-size:1.5rem;margin-bottom:8px">Estimate your employability gap</h3>
+          <p class="fine" style="margin-bottom:14px">Enter your batch size and placement rate. We apply the 54.8% national employability benchmark to show how many graduates may not yet be job-ready, and why a Year-1 baseline matters.</p>
+          <div class="form"><div class="row">
+            <label class="f">Students graduating each year<input type="number" id="gcN" min="50" value="1500"></label>
+            <label class="f">Placed each year (%)<input type="number" id="gcP" min="0" max="100" value="55"></label>
+          </div></div>
+        </div>
+        <div>
+          <div class="calc-out" style="margin-top:0">
+            <div><b id="gcA">678</b><span>graduates a year likely not yet job-ready (national benchmark)</span></div>
+            <div><b id="gcB">825</b><span>graduates you place each year</span></div>
+            <div><b id="gcC">+0.2 pts</b><span>your placement rate vs the 54.8% benchmark</span></div>
+          </div>
+          <form class="form" id="gcForm" style="margin-top:14px;grid-template-columns:1fr auto;align-items:end" novalidate>
+            <label class="f">Work email<input type="email" name="email" placeholder="you@university.edu" required></label>
+            <button class="btn btn-primary btn-sm" type="submit" style="height:46px">Email me this gap report</button>
+          </form>
+          <div class="err" id="gcErr" role="alert"></div><div id="gcOut" aria-live="polite"></div>
+          <p class="fine" style="margin:8px 0 0">Indicative only. Placement rate and employability are different measures; a verified baseline gives your real figure.</p>
+        </div>
+      </div>
+    </div>
+    <div class="g3" style="margin-top:28px">
+      <div class="stat"><b>54.8%</b><span>of Indian graduates assessed as employable. India Skills Report 2025</span></div>
+      <div class="stat"><b>78 million</b><span>net new jobs worldwide by 2030. WEF Future of Jobs Report 2025</span></div>
+      <div class="stat"><b>39%</b><span>of core skills expected to change by 2030. WEF Future of Jobs Report 2025</span></div>
+    </div>
+    <div class="g2" style="margin-top:34px">
+      <div>
+        <h3>Where universities feel it</h3>
+        <ul class="ticks" style="margin-top:10px">
+          <li>Students arrive with different starting points but receive uniform preparation.</li>
+          <li>Finishing the curriculum does not create evidence of applied capability.</li>
+          <li>Training, assessment, projects and mentoring run as separate activities with separate vendors.</li>
+          <li>Faculty and T&amp;P teams work from scattered spreadsheets.</li>
+          <li>Entrepreneurship sits apart from employability, though both need the same evidence.</li>
+        </ul>
+      </div>
+      <div class="panel" style="background:var(--cream);border:0;border-left:6px solid var(--orange);border-radius:0">
+        <h3>Seven questions a university should answer for every student</h3>
+        <ol style="margin:12px 0 0;padding-left:20px;font-weight:600">
+          <li>Where do I stand?</li><li>Where do I want to go?</li><li>What should I learn next?</li>
+          <li>How will I prove capability?</li><li>Who should guide me?</li><li>Which opportunities fit me?</li><li>What outcome did I achieve?</li>
+        </ol>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- JOURNEY -->
+<section class="band band-cream" id="journey">
+  <div class="wrap">
+    <h2>Eight stages, one continuous journey</h2>
+    <hr class="rule">
+    <div class="loopwrap">
+      <div><p class="lede">Every student follows the same logic, personalised to their starting point and goal. Select a stage to see what happens in it.</p>
+    <p class="loop-note" style="margin-top:20px">Stages 3 to 6 form a closed loop: every attempt, project and mentor note updates the Karm-Patri and reshapes what comes next.</p></div>
+      <svg class="loop" viewBox="-75 0 550 335" role="img" aria-label="Closed loop: plan, learn, apply and mentor circle around the Karm-Patri, which every step updates">
+        <path class="ring" d="M200,65 a105,105 0 1,1 -0.01,0"/>
+        <g class="ar"><polygon points="-7,-6 7,0 -7,6" transform="translate(274.2,95.8) rotate(45)"/><polygon points="-7,-6 7,0 -7,6" transform="translate(274.2,244.2) rotate(135)"/><polygon points="-7,-6 7,0 -7,6" transform="translate(125.8,244.2) rotate(225)"/><polygon points="-7,-6 7,0 -7,6" transform="translate(125.8,95.8) rotate(315)"/></g>
+        <circle class="mv" r="8"><animateMotion dur="9s" repeatCount="indefinite" path="M200,65 a105,105 0 1,1 -0.01,0"/></circle>
+        <circle class="hub" cx="200" cy="170" r="56"/><text class="ht" x="200" y="168">KARM-PATRI</text><text class="hs" x="200" y="184">updated at every step</text>
+        <circle class="n" cx="200" cy="65" r="24"/><text class="nt" x="200" y="73">3</text><text class="lb" x="200" y="30">Personalised plan</text>
+        <circle class="n" cx="305" cy="170" r="24"/><text class="nt" x="305" y="178">4</text><text class="lb" x="338" y="175" style="text-anchor:start">Learn &amp; assess</text>
+        <circle class="n" cx="200" cy="275" r="24"/><text class="nt" x="200" y="283">5</text><text class="lb" x="200" y="322">Apply in projects</text>
+        <circle class="n" cx="95" cy="170" r="24"/><text class="nt" x="95" y="178">6</text><text class="lb" x="62" y="175" style="text-anchor:end">Mentor &amp; guide</text>
+      </svg>
+    </div>
+    <div class="stages" role="tablist" aria-label="Student journey stages" id="stages"></div>
+    <div class="stage-detail" id="stageDetail" role="tabpanel" aria-live="polite"></div>
+
+    <h3 style="margin-top:44px">Four years, one compounding record</h3>
+    <div class="g4 steps" style="margin-top:14px">
+      <div class="panel"><span class="tag">Year 1 · Discover</span><ul class="ticks"><li>Baseline 4C assessment</li><li>Foundational skills</li><li>First credentials</li><li>Mentor pairing</li></ul></div>
+      <div class="panel"><span class="tag">Year 2 · Build</span><ul class="ticks"><li>Coding proficiency</li><li>Domain core mastery</li><li>First certifications</li><li>First projects</li></ul></div>
+      <div class="panel"><span class="tag">Year 3 · Stretch</span><ul class="ticks"><li>Industry credentials</li><li>Live projects shipped</li><li>Mock interviews</li><li>Internship readiness</li></ul></div>
+      <div class="panel"><span class="tag">Year 4 · Launch</span><ul class="ticks"><li>Day-0 productivity score</li><li>Company-specific mocks</li><li>Founder track (EUTP)</li><li>Verified Pool listing</li></ul></div>
+    </div>
+  </div>
+</section>
+
+<!-- KARM-PATRI -->
+<section class="band" id="karm-patri">
+  <div class="wrap">
+    <h2>Karm-Patri: the evolving capability record</h2>
+    <hr class="rule">
+    <div class="g2">
+      <div>
+        <p class="lede">The Karm-Patri (कर्म-पत्री) is each student's living, evidence-backed record of employability and entrepreneurship. It compounds over the degree, updates as the student grows and can be shared with a recruiter in one click.</p>
+        <p style="font-weight:800;color:var(--green)">Owned by the University. Curated by SkillWiz. Carried by the student for life.</p>
+        <p style="font-weight:700;margin-top:22px">See how the record differs by discipline:</p>
+        <div class="kp-pick" role="group" aria-label="Sample students" id="kpPick"></div>
+        <div class="kp" id="kpDemo"></div>
+      </div>
+      <div>
+        <h3 style="margin-bottom:12px">Résumé versus Karm-Patri</h3>
+        <div class="tbl-wrap"><table style="min-width:0">
+          <tr><th>The traditional résumé</th><th>The Karm-Patri</th></tr>
+          <tr><td style="font-weight:500;color:var(--ink)">What the student claims</td><td>What is verifiably true about the student</td></tr>
+          <tr><td style="font-weight:500;color:var(--ink)">Self-reported; cannot be verified</td><td>Platform-verified and tamper-evident</td></tr>
+          <tr><td style="font-weight:500;color:var(--ink)">Bullet points, no scoring rubric</td><td>Eight scored dimensions</td></tr>
+          <tr><td style="font-weight:500;color:var(--ink)">Written once, rarely updated</td><td>Updated continuously as the student grows</td></tr>
+          <tr><td style="font-weight:500;color:var(--ink)">Same template for every graduate</td><td>Unique to each student and discipline</td></tr>
+          <tr><td style="font-weight:500;color:var(--ink)">Treated by employers as a screening risk</td><td>Used by employers as a screening shortcut</td></tr>
+        </table></div>
+        <div class="callout"><strong>Skills get a student shortlisted. Capabilities get them hired, promoted or funded.</strong> A skill is a narrow, task-level ability with a short shelf-life. A capability is the mix of skills, attitudes and habits that lets someone adapt and create value. SkillWiz 2.0 builds and evidences both.</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- PLATFORM -->
+<section class="band band-cream" id="platform">
+  <div class="wrap">
+    <h2>One platform, every stakeholder</h2>
+    <hr class="rule">
+    <p class="lede">SkillWiz 2.0 is not a course library and not a placement portal. It is the operating layer that connects them. Each stakeholder has a separate login and a view built for their role, drawing on the same verified data.</p>
+    <div class="plat">
+      <div><svg id="hub" viewBox="0 0 440 400" aria-label="Eight stakeholders connected to one Karm-Patri record. Select one to see its view."></svg><p class="hubcap">Select a stakeholder to see their view.</p></div>
+      <div><div class="tabs" role="tablist" aria-label="Stakeholder views" id="roleTabs"></div>
+      <div class="tabpanel" id="rolePanel" role="tabpanel" aria-live="polite"></div></div>
+    </div>
+
+    <h3 style="margin:44px 0 6px">What each view looks like</h3>
+    <p class="fine" style="margin-bottom:14px">Illustrative screens with sample data. Final layouts are configured with each university.</p>
+    <div class="mocks">
+      <div class="mock"><div class="mock-bar">Student app <em>This week's path</em></div><div class="mock-body">
+        <div class="mrow"><span class="tick d"></span><b>Quant: time and work</b><small>Cognitive</small></div>
+        <div class="mrow"><span class="tick d"></span><b>C pointers practice set</b><small>Coding</small></div>
+        <div class="mrow"><span class="tick"></span><b>ECE core mock 3</b><small>Core</small></div>
+        <div class="mrow"><span class="tick"></span><b>AI mock interview</b><small>Interview</small></div>
+        <div><small style="color:var(--muted);font-weight:700">50% of this week's plan done</small><div class="gbar" style="margin-top:5px"><i style="--w:50%"></i></div></div>
+      </div></div>
+      <div class="mock"><div class="mock-bar">Mentor console <em>12 students assigned</em></div><div class="mock-body">
+        <div class="mrow"><b>Student A <small>CSE, Sem 5</small></b><span class="pill">On track</span></div>
+        <div class="mrow"><b>Student B <small>ECE, Sem 5</small></b><span class="pill w">Coding gap</span></div>
+        <div class="mrow"><b>Student C <small>ME, Sem 6</small></b><span class="pill w">Mock interview due</span></div>
+        <div class="mrow"><b>Student D <small>CSE, Sem 6</small></b><span class="pill">On track</span></div>
+        <small style="color:var(--muted);font-weight:700">2 interventions open this fortnight</small>
+      </div></div>
+      <div class="mock"><div class="mock-bar">Department dashboard <em>Readiness heat-map</em></div><div class="mock-body">
+        <div class="heat" id="heat"></div>
+        <div class="legend"><span style="--c:var(--green)">Ready</span><span style="--c:#8DBBA0">Building</span><span style="--c:var(--orange)">Needs attention</span></div>
+      </div></div>
+      <div class="mock"><div class="mock-bar">Recruiter view <em>Verified Pool search</em></div><div class="mock-body">
+        <div class="mchips"><span>ECE</span><span>Index 80+</span><span>Chip-design credential</span></div>
+        <div class="mrow"><b>Candidate 1 <small>4 projects, 12 mocks</small></b><div class="gbar" style="width:70px"><i style="--w:91%"></i></div><span class="score">91</span></div>
+        <div class="mrow"><b>Candidate 2 <small>3 projects, 9 mocks</small></b><div class="gbar" style="width:70px"><i style="--w:87%"></i></div><span class="score">87</span></div>
+        <div class="mrow"><b>Candidate 3 <small>2 projects, 10 mocks</small></b><div class="gbar" style="width:70px"><i style="--w:82%"></i></div><span class="score">82</span></div>
+        <small style="color:var(--muted);font-weight:700">Shortlist exports to your ATS</small>
+      </div></div>
+    </div>
+
+    <h3 style="margin:44px 0 12px">The seven layers</h3>
+    <div class="tbl-wrap"><table>
+      <tr><th>Layer</th><th>What it does</th></tr>
+      <tr><td>Student Intelligence</td><td>Baseline, aspirations, interests, competencies, evidence, progress and readiness.</td></tr>
+      <tr><td>Learning Orchestration</td><td>Curated and personalised content, AI-powered learning paths, continuous practice and upskilling.</td></tr>
+      <tr><td>Assessment &amp; Evidence</td><td>Customised micro-assessments, skill-gap analysis, project evidence, certifications and achievements.</td></tr>
+      <tr><td>Mentoring &amp; Guidance</td><td>Faculty, mentors and industry experts, supported by an AI guidance engine.</td></tr>
+      <tr><td>Industry Alignment</td><td>Job-description analysis, competency mapping, KRA/KPI understanding and opportunity alignment.</td></tr>
+      <tr><td>Outcome Engine</td><td>Career readiness, employability pathways, entrepreneurship and progress-to-outcome visibility.</td></tr>
+      <tr><td>University Intelligence</td><td>Dashboards, cohort analytics, intervention priorities and management reporting.</td></tr>
+    </table></div>
+
+    <h3 style="margin:44px 0 12px">Add what you need, under the same contract</h3>
+    <div class="g3">
+      <div class="panel"><h3>Assessment &amp; examinations</h3><p style="margin-top:8px">Proctored exams with AI and human proctoring, examination management, digital evaluation with results in 24 hours.</p></div>
+      <div class="panel"><h3>Training &amp; credentialing</h3><p style="margin-top:8px">Classroom and live online training, AI personal interview practice round the clock, international credentials delivered on campus.</p></div>
+      <div class="panel"><h3>Entrepreneurship (EUTP)</h3><p style="margin-top:8px">Founder pipeline, incubation, capital and mentor network, built and proven at KIIT.</p></div>
+      <div class="panel"><h3>Campus infrastructure</h3><p style="margin-top:8px">STEM labs and Centres of Excellence in chip design, EV, robotics and XR, with faculty training.</p></div>
+      <div class="panel"><h3>Institutional systems</h3><p style="margin-top:8px">Admissions management and an AI-native University Management System.</p></div>
+      <div class="panel"><h3>Placement</h3><p style="margin-top:8px">Placement portal, Verified Pool, campus placement services and Day-0 Productivity programmes.</p></div>
+    </div>
+
+    <h3 style="margin:44px 0 6px">What each stakeholder gets</h3>
+    <p class="fine" style="margin-bottom:6px">Same verified data, nine different returns.</p>
+    <div class="vgrid">
+      <div class="panel vcard"><span class="tag">Students</span><h3>A path from where I am to where I want to be</h3><ul class="ticks"><li>A verified Karm-Patri to share with recruiters</li><li>AI learning path and mock interviews at any hour</li><li>A job route or a founder route, both counted</li></ul></div>
+      <div class="panel vcard"><span class="tag">TPOs</span><h3>Placement meetings run on data, not debate</h3><ul class="ticks"><li>Cohort readiness and JD-to-competency mapping</li><li>Verified Pool access for recruiters</li><li>Preparation that starts in Year 1</li></ul></div>
+      <div class="panel vcard"><span class="tag">Academicians</span><h3>See which student needs you this week</h3><ul class="ticks"><li>Progress and skill-gap visibility per student</li><li>Evidence for NBA attainment captured as students work</li><li>Less spreadsheet work</li></ul></div>
+      <div class="panel vcard"><span class="tag">Top management</span><h3>One view of capability across the institution</h3><ul class="ticks"><li>Leadership dashboard against your own baseline</li><li>NAAC, NBA and NIRF-ready reporting</li><li>One MoU and one SLA</li></ul></div>
+      <div class="panel vcard"><span class="tag">University owners</span><h3>Outcomes you can show, and a return you can track</h3><ul class="ticks"><li>Reputation and admissions pull from proven results</li><li>Fewer vendors, single-point accountability</li><li>Alumni equity pipeline through EUTP, where adopted</li></ul></div>
+      <div class="panel vcard"><span class="tag">Employers</span><h3>Hire on evidence, productive from Day 0</h3><ul class="ticks"><li>Pre-scored candidates; pre-screening in 48 hours</li><li>Day-0 training to your role specification</li><li>ATS export</li></ul></div>
+      <div class="panel vcard"><span class="tag">Parents</span><h3>An honest view of the trajectory</h3><ul class="ticks"><li>Evidence-based progress, not hope</li><li>Visible only with University and student consent</li><li>Confidence that fees convert into capability</li></ul></div>
+      <div class="panel vcard"><span class="tag">Alumni &amp; mentors</span><h3>Give back where it counts</h3><ul class="ticks"><li>Mentor matching with students</li><li>Referral and venture support</li><li>Industry exposure</li></ul></div>
+      <div class="panel vcard"><span class="tag">Government &amp; regulators</span><h3>Evidence that skilling worked</h3><ul class="ticks"><li>Data from skilling programmes</li><li>Accreditation and outcome evidence</li><li>Processing aligned with the DPDP Act, 2023</li></ul></div>
+    </div>
+  </div>
+</section>
+
+<!-- LEADERSHIP -->
+<section class="band" id="leadership">
+  <div class="wrap">
+    <span class="tag">For Vice-Chancellors, Principals and management</span>
+    <h2>What changes for the university</h2>
+    <hr class="rule">
+    <div class="tbl-wrap"><table>
+      <tr><th>Today: typical fragmentation</th><th>With SkillWiz 2.0</th><th>What leadership sees</th></tr>
+      <tr><td style="font-weight:500;color:var(--ink)">Content and training in silos</td><td>Personalised learning orchestration</td><td>Participation and progression</td></tr>
+      <tr><td style="font-weight:500;color:var(--ink)">Separate, one-off assessments</td><td>A continuous evidence layer</td><td>Skill-gap and readiness views</td></tr>
+      <tr><td style="font-weight:500;color:var(--ink)">Placement preparation in the final year</td><td>An employability journey from Year 1</td><td>Early identification of gaps</td></tr>
+      <tr><td style="font-weight:500;color:var(--ink)">Entrepreneurship as a separate cell</td><td>An entrepreneurial pathway inside the student journey</td><td>Innovation and venture pipeline</td></tr>
+      <tr><td style="font-weight:500;color:var(--ink)">Accreditation evidence compiled by hand</td><td>Outcome data captured continuously</td><td>NAAC / NBA / NIRF-ready reporting</td></tr>
+      <tr><td style="font-weight:500;color:var(--ink)">Four or more vendors and contracts</td><td>One MoU and one SLA</td><td>Single-point accountability</td></tr>
+    </table></div>
+    <div class="g3" style="margin-top:28px">
+      <div class="panel"><h3>Accreditation dividend</h3><p style="margin-top:8px">Continuous, verified outcome data supports NAAC Criterion 5 (Student Support and Progression), NBA outcome-based attainment evidence and the NIRF Graduation Outcomes parameter.</p></div>
+      <div class="panel"><h3>Joint governance</h3><p style="margin-top:8px">An executive sponsor, a programme owner and a steering team on your side. Fortnightly working reviews, monthly steering reviews and an end-of-pilot leadership review.</p></div>
+      <div class="panel"><h3>Your data stays yours</h3><p style="margin-top:8px">Student and institutional data remain the property of the University. Processing is aligned with the Digital Personal Data Protection Act, 2023. On exit, data is returned and deleted.</p></div>
+    </div>
+
+    <h3 style="margin:44px 0 12px">Start small, prove, scale</h3>
+    <div class="phases">
+      <div class="phase"><div class="wk">2–3 weeks</div><h3>Discovery &amp; design</h3><p>Stakeholder workshops, data and process mapping, cohort selection.</p><p><strong>You get:</strong> pilot charter, KPI baseline, configuration plan.</p></div>
+      <div class="phase"><div class="wk">8–12 weeks</div><h3>Pilot</h3><p>Onboarding, baseline, goal-setting, learning, assessment, projects, dashboards.</p><p><strong>You get:</strong> live platform, Karm-Patri for the cohort, fortnightly reports.</p></div>
+      <div class="phase"><div class="wk">2–3 weeks</div><h3>Review</h3><p>Adoption, progress, evidence, stakeholder feedback, operational fit.</p><p><strong>You get:</strong> a scale, refine or stop recommendation.</p></div>
+      <div class="phase"><div class="wk">Next cycle</div><h3>Scale</h3><p>Rollout across programmes, years or schools with change-management support.</p><p><strong>You get:</strong> institution-wide deployment.</p></div>
+    </div>
+    <div class="callout"><strong>Success is agreed before launch.</strong> Activation, baseline completion, assessment improvement between Entry, Mid and Exit, skill-gap closure, projects with evidence, mentoring interventions, mock readiness and faculty adoption are measured against your own baseline and reported on the leadership dashboard.</div>
+    <p style="margin-top:26px"><a class="btn btn-primary" href="#proposal">Build a proposal for your institution</a> <a class="btn btn-ghost" href="#contact" data-role="lead">Schedule a demonstration</a></p>
+  </div>
+</section>
+
+<!-- FACULTY -->
+<section class="band band-cream" id="faculty">
+  <div class="wrap aud">
+    <div>
+      <span class="tag">For faculty, mentors, HoDs and T&amp;P teams</span>
+      <h2>See which student needs you this week</h2>
+      <hr class="rule">
+      <p class="lede">Mentoring should not depend on who happens to knock on your door. The mentor console shows learning needs, progress and intervention priorities for every student assigned to you.</p>
+      <p><a class="btn btn-primary" href="#contact" data-role="fac">Ask for a faculty walkthrough</a></p>
+    </div>
+    <div class="g2" style="gap:16px">
+      <div class="panel"><h3>Less spreadsheet work</h3><p style="margin-top:8px">One common capability record replaces the separate sheets kept by departments, mentors and the placement cell.</p></div>
+      <div class="panel"><h3>Evidence for NBA attainment</h3><p style="margin-top:8px">Assessment and project evidence is captured as students work, so it is ready when the audit arrives.</p></div>
+      <div class="panel"><h3>Department heat-maps</h3><p style="margin-top:8px">Heads of Department see readiness by section and subject, and where to intervene first.</p></div>
+      <div class="panel"><h3>Projects that count</h3><p style="margin-top:8px">Project work and your mentor observations become verified evidence in each student's Karm-Patri.</p></div>
+      <div class="panel"><h3>Customised tests</h3><p style="margin-top:8px">Build assessments aligned to your programme, with randomised question pools giving each student a unique paper.</p></div>
+      <div class="panel"><h3>Faculty development</h3><p style="margin-top:8px">Faculty Development Programmes and Train-the-Trainer sessions are available as an extended service.</p></div>
+    </div>
+  </div>
+</section>
+
+<!-- STUDENTS -->
+<section class="band" id="students">
+  <div class="wrap aud">
+    <div>
+      <span class="tag">For students</span>
+      <h2>Four years of college, turned into proof</h2>
+      <hr class="rule">
+      <p class="lede">A personalised path from where you are to where you want to be, whether that is a job or your own venture.</p>
+      <ul class="ticks">
+        <li><strong>4C preparation:</strong> Cognitive, Coding, Core technical and Company mocks.</li>
+        <li><strong>AI learning path</strong> built for your goal after a baseline assessment.</li>
+        <li><strong>AI mock interviews</strong> you can practise at any hour, with structured feedback.</li>
+        <li><strong>Projects and credentials</strong> recorded as verified evidence.</li>
+        <li><strong>A Karm-Patri</strong> you carry for life and share with recruiters in one click.</li>
+        <li><strong>Founder track</strong> if you want to build a company instead of joining one.</li>
+      </ul>
+      <p class="fine" style="margin-top:16px">SkillWiz reaches students through their college. If yours is not on SkillWiz yet, tell us below and we will contact your placement office.</p>
+    </div>
+    <div class="panel" id="quiz">
+      <h3>Two-minute readiness self-check</h3>
+      <p class="fine" style="margin:6px 0 4px">A quick self-reflection. It is not your Karm-Patri score, which comes from verified assessments.</p>
+      <div id="quizQs"></div>
+      <div id="quizOut" aria-live="polite" style="margin-top:16px"></div>
+    </div>
+  </div>
+</section>
+
+<!-- EMPLOYERS -->
+<section class="band band-green" id="employers">
+  <div class="wrap aud">
+    <div>
+      <span class="tag">For companies hiring interns and freshers</span>
+      <h2>Hire on evidence, not résumés</h2>
+      <hr class="rule">
+      <p class="lede">Search the SkillWiz Verified Pool of students across partner universities. Every profile is generated from the Karm-Patri, so you see verified scores, credentials and projects.</p>
+      <ul class="ticks" style="--line:rgba(255,255,255,.2)">
+        <li>Job-description analysis mapped to competencies</li>
+        <li>Pre-screening through custom assessments within 48 hours</li>
+        <li>AI personal interviews for shortlisting</li>
+        <li>Internship placement and campus, pool and off-campus drives</li>
+        <li>Day-0 Productivity: 90–120 days of pre-joining training to your role specification</li>
+        <li>ATS export to Workday, SAP SuccessFactors, Greenhouse, Lever and Naukri RMS</li>
+      </ul>
+    </div>
+    <div class="panel" style="color:var(--ink)">
+      <h3>Describe the role. Get a shortlist plan.</h3>
+      <form class="form" id="empForm" style="margin-top:14px" novalidate>
+        <div class="row">
+          <label class="f">Role title<input type="text" name="role" placeholder="e.g. Embedded systems intern" required></label>
+          <label class="f">Hiring for<select name="type"><option>Internship</option><option>Fresher, full-time</option><option>Both</option></select></label>
+        </div>
+        <div><span style="font-weight:700;font-size:.9rem">Streams</span>
+          <div class="checks" style="margin-top:6px">
+            <label><input type="checkbox" name="stream" value="CSE" checked>CSE</label>
+            <label><input type="checkbox" name="stream" value="ECE">ECE</label>
+            <label><input type="checkbox" name="stream" value="EE">EE</label>
+            <label><input type="checkbox" name="stream" value="ME">ME</label>
+            <label><input type="checkbox" name="stream" value="Civil">Civil</label>
+            <label><input type="checkbox" name="stream" value="Management">Management</label>
+          </div>
+        </div>
+        <label class="f">Minimum Placeability Index: <output id="minOut">70</output>
+          <input type="range" name="min" min="40" max="95" step="5" value="70"></label>
+        <div class="row">
+          <label class="f">Positions<input type="number" name="n" min="1" value="10"></label>
+          <label class="f">Work email<input type="email" name="email" placeholder="you@company.com" required></label>
+        </div>
+        <div class="err" id="empErr" role="alert"></div>
+        <button class="btn btn-primary" type="submit">Request my shortlist plan</button>
+      </form>
+      <div id="empOut" aria-live="polite" style="margin-top:14px"></div>
+    </div>
+    <ol class="pipe" aria-label="How hiring through SkillWiz works">
+      <li><span>1</span>Job description<small>mapped to competencies</small></li>
+      <li><span>2</span>Verified Pool shortlist<small>by Karm-Patri evidence</small></li>
+      <li><span>3</span>Assessment + AI interview<small>within 48 hours</small></li>
+      <li><span>4</span>Your interviews<small>a short, evidence-backed list</small></li>
+      <li><span>5</span>Day-0 training<small>to your role specification</small></li>
+    </ol>
+  </div>
+</section>
+
+<!-- TWO OUTCOMES -->
+<section class="band" id="outcomes">
+  <div class="wrap">
+    <h2>Two outcomes: a job, or a venture</h2>
+    <hr class="rule">
+    <p class="lede">Entrepreneurship is not a consolation option, and success is not defined only as getting a job. SkillWiz 2.0 supports both pathways deliberately.</p>
+    <div class="g2" style="margin-top:26px">
+      <div class="panel"><h3>Employability</h3><ul class="ticks" style="margin-top:10px"><li>Day-0 productivity orientation</li><li>Role and competency awareness</li><li>Industry-aligned learning</li><li>Projects and practical evidence</li><li>Interview and opportunity readiness</li></ul></div>
+      <div class="panel"><h3>Entrepreneurship, through EUTP</h3><ul class="ticks" style="margin-top:10px"><li>Student founder pipeline: ideation camps, Build School, pitch competitions</li><li>AI platform that measures entrepreneurial skill and tracks every venture</li><li>On-campus incubation with angel, micro-VC and government-scheme access</li><li>Industry and alumni mentor network</li><li>Founder Track recorded inside the Karm-Patri</li></ul></div>
+    </div>
+    <h3 id="industries" style="margin:40px 0 6px">Industry radar: the sectors where India is hiring and building</h3>
+    <p class="fine" style="margin-bottom:14px">Select a sector to see the roles and skills students should build towards, and how SkillWiz prepares them.</p>
+    <div class="sectors" id="sectors"><button type="button" aria-pressed="true">Chip design</button><button type="button" aria-pressed="false">Defence technology</button><button type="button" aria-pressed="false">EV &amp; battery</button><button type="button" aria-pressed="false">Autonomous driving</button><button type="button" aria-pressed="false">Logistics</button><button type="button" aria-pressed="false">AI technology</button><button type="button" aria-pressed="false">Robotics</button><button type="button" aria-pressed="false">Space technology</button><button type="button" aria-pressed="false">Biotechnology</button><button type="button" aria-pressed="false">Manufacturing</button><button type="button" aria-pressed="false">Ordnance &amp; missile tech</button><button type="button" aria-pressed="false">Cyber security</button></div>
+    <div class="radar" id="radar" aria-live="polite"></div>
+  </div>
+</section>
+
+<!-- PRICING -->
+<section class="band band-cream" id="pricing">
+  <div class="wrap">
+    <h2>Less than ₹7 a day per student</h2>
+    <hr class="rule">
+    <div class="g2">
+      <div>
+        <p class="lede">The core platform is priced at <strong>₹2,500 per active student per year</strong>. Extended services are quoted on scope after discovery and brought under the same MoU and SLA.</p>
+        <div class="panel" style="margin-top:20px">
+          <label class="f" for="stuRange">Active students: <output id="stuOut" style="font-family:var(--display);font-size:1.6rem;color:var(--green)">5,000</output></label>
+          <input type="range" id="stuRange" min="200" max="30000" step="100" value="5000">
+          <div class="calc-out">
+            <div><b id="cYear">₹1.25 crore</b><span>annual platform fee</span></div>
+            <div><b id="cMonth">₹10.42 lakh</b><span>monthly equivalent</span></div>
+            <div><b>₹6.85</b><span>per student per day</span></div>
+          </div>
+          <p class="fine" style="margin:12px 0 0">Illustrative arithmetic. Excludes GST and extended services. Tiered pricing is available for multi-year commitments and larger cohorts.</p>
+        </div>
+      </div>
+      <div>
+        <h3>Included in the core fee</h3>
+        <ul class="ticks" style="margin-top:10px">
+          <li>Karm-Patri for every active student, with the Placeability Index</li>
+          <li>Curated 4C content: Cognite Games, PlaceMe, N2N Coding, CRT-Lite, Top 20 company mocks</li>
+          <li>Universal Baseline Assessments at Entry, Mid and Exit</li>
+          <li>AI personalised learning path</li>
+          <li>Dashboards for students, mentors, TPO, departments and leadership</li>
+          <li>Orientation, onboarding, account management and helpdesk</li>
+        </ul>
+        <div class="callout"><strong>Commercial terms in brief.</strong> Pilot cohort billed pro-rata and adjusted against the Year-1 invoice on scale-up. Renewal increases capped at annual inflation.</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- PROPOSAL BUILDER -->
+<section class="band band-green" id="proposal">
+  <div class="wrap">
+    <h2>Build a proposal for your institution</h2>
+    <hr class="rule">
+    <div class="g2">
+      <div class="prop-form">
+        <p class="lede">Answer five questions and see a tailored outline straight away. We then send the full proposal, configured around your programmes and placement context.</p>
+        <form class="form" id="propForm" style="margin-top:18px" novalidate>
+          <label class="f" style="color:#fff">Institution name<input type="text" name="inst" placeholder="Your university or college" required></label>
+          <div class="row">
+            <label class="f" style="color:#fff">Type<select name="kind"><option>University</option><option>Autonomous college</option><option>Affiliated college</option><option>Group of institutions</option></select></label>
+            <label class="f" style="color:#fff">City / State<input type="text" name="city" placeholder="e.g. Bhubaneswar, Odisha"></label>
+          </div>
+          <div class="row">
+            <label class="f" style="color:#fff">Total active students<input type="number" name="total" min="100" value="5000" required></label>
+            <label class="f" style="color:#fff">Pilot cohort size<input type="number" name="pilot" min="50" value="500" required></label>
+          </div>
+          <div><span style="font-weight:700;font-size:.9rem">What matters most in the next 12–24 months?</span>
+            <div class="checks" style="margin-top:6px">
+              <label><input type="checkbox" name="pri" value="place" checked>Placement readiness</label>
+              <label><input type="checkbox" name="pri" value="accr">Accreditation evidence</label>
+              <label><input type="checkbox" name="pri" value="entr">Entrepreneurship</label>
+              <label><input type="checkbox" name="pri" value="exam">Examinations</label>
+              <label><input type="checkbox" name="pri" value="train">Training</label>
+              <label><input type="checkbox" name="pri" value="labs">Labs &amp; CoE</label>
+              <label><input type="checkbox" name="pri" value="sys">Admissions &amp; UMS</label>
+            </div>
+          </div>
+          <div class="err" id="propErr" role="alert" style="color:#FFD3C4"></div>
+          <button class="btn btn-primary" type="submit">Show my proposal outline</button>
+        </form>
+      </div>
+      <div>
+        <div class="prop" id="propOut"><div class="prop-empty"><strong>Your outline appears here.</strong><br>Core fee, pilot estimate, recommended modules and a four-week path to a signed letter of intent.</div></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- TRUST -->
+<section class="band" id="trust">
+  <div class="wrap">
+    <h2>Already running at scale</h2>
+    <hr class="rule">
+    <p class="lede">We do not pitch what we will build. SkillWiz already runs in some of India's largest private universities, with client relationships averaging 7–10 years.</p>
+    <div class="g3" style="margin-top:26px">
+      <blockquote><p>"The 24-hour result declaration alone justified the contract. We've added back almost two academic weeks per semester."</p><footer>Controller of Examinations, large private university, West Bengal</footer></blockquote>
+      <blockquote><p>"The Karm-Patri turned our placement committee meeting from a debate into a data review."</p><footer>Director of Placements, leading private university, NCR</footer></blockquote>
+      <blockquote><p>"We replaced four vendors with SkillWiz over 18 months. The administrative saving alone covered the contract."</p><footer>Vice-Chancellor, top-tier private university, South India</footer></blockquote>
+    </div>
+    <p class="fine" style="margin-top:10px">Names withheld at the institutions' request. Reference calls are arranged during evaluation.</p>
+
+    <div class="g2" style="margin-top:36px">
+      <div class="panel"><h3>Single-point accountability</h3><p style="margin-top:8px">When something goes wrong on exam day, one team picks up the call. SkillWiz is always the contract holder. Partners answer to SkillWiz; SkillWiz answers to the University.</p></div>
+      <div class="panel"><h3>Pricing that respects loyalty</h3><p style="margin-top:8px">Renewal pricing for existing customers does not rise faster than annual inflation. Workflows built for one university in 2018 still run in 2026.</p></div>
+    </div>
+
+    <h3 style="margin:40px 0 12px">The partner engine room</h3>
+    <div class="partners">
+      <div><b>Learning Spiral</b><span>Digital evaluation, 25M+ answer booklets a year</span></div>
+      <div><b>Ken42</b><span>AI-native University Operating System</span></div>
+      <div><b>Nippon Data Systems</b><span>ERP / CRM for institutions and government</span></div>
+      <div><b>ExcelR</b><span>Data, analytics and government skilling</span></div>
+      <div><b>Risaya</b><span>Foreign-degree pathways, 35+ universities</span></div>
+      <div><b>SkillX.edu.au</b><span>Australian micro-credentials in cyber security and AI</span></div>
+      <div><b>PhiTech Germany</b><span>Four-year ECE chip-design programme</span></div>
+      <div><b>Toonz Academy</b><span>Animation, games, AI and XR</span></div>
+      <div><b>Protrainy</b><span>Civil, mechanical, infrastructure, oil &amp; gas</span></div>
+      <div><b>EdgeFX Technologies</b><span>STEM labs and innovation centres</span></div>
+      <div><b>SkillWiz EUTP</b><span>KIIT-built founder pipeline</span></div>
+      <div><b>SkillWiz in-house</b><span>Employability Suite, Karm-Patri, proctoring, AI interview</span></div>
+    </div>
+
+    <h3 style="margin:44px 0 12px">How SkillWiz 2.0 differs from what you use today</h3>
+    <div class="tbl-wrap"><table class="cmp">
+      <tr><th>Capability</th><th>Typical training vendor</th><th>Typical LMS</th><th>SkillWiz 2.0</th></tr>
+      <tr><td>Baseline and personalised learning path</td><td class="p">Partly</td><td class="p">Partly</td><td class="y">Yes</td></tr>
+      <tr><td>Verified, tamper-evident evidence per student</td><td class="n">No</td><td class="n">No</td><td class="y">Karm-Patri</td></tr>
+      <tr><td>Mentor intervention tracking</td><td class="n">No</td><td class="p">Partly</td><td class="y">Yes</td></tr>
+      <tr><td>Job-description and competency alignment</td><td class="p">Partly</td><td class="n">No</td><td class="y">Yes</td></tr>
+      <tr><td>Entrepreneurship track in the same record</td><td class="n">No</td><td class="n">No</td><td class="y">EUTP</td></tr>
+      <tr><td>Leadership and accreditation dashboards</td><td class="n">No</td><td class="p">Partly</td><td class="y">Yes</td></tr>
+      <tr><td>One MoU and one SLA for every service</td><td class="n">No</td><td class="n">No</td><td class="y">Yes</td></tr>
+    </table></div>
+    <p class="fine" style="margin-top:8px">A general comparison of categories, not of any named product.</p>
+  </div>
+</section>
+
+<!-- RESOURCES -->
+<section class="band band-cream" id="resources">
+  <div class="wrap">
+    <h2>Take something useful with you</h2>
+    <hr class="rule">
+    <div class="g3">
+      <div class="panel res"><h3>11 questions for your internal discussion</h3><p>A one-page checklist for leadership, T&amp;P, IQAC and IT to answer before any employability platform demo.</p><button class="btn btn-ghost btn-sm" data-res="11 questions checklist">Email me the checklist</button></div>
+      <div class="panel res"><h3>Accreditation evidence map</h3><p>Which platform data supports NAAC Criterion 5, NBA attainment and NIRF Graduation Outcomes.</p><button class="btn btn-ghost btn-sm" data-res="Accreditation evidence map">Email me the map</button></div>
+      <div class="panel res"><h3>The 60–90 minute demonstration agenda</h3><p>What your leadership team will see, from student onboarding to commercial configuration.</p><button class="btn btn-ghost btn-sm" data-res="Demonstration agenda">Email me the agenda</button></div>
+    </div>
+    <form class="form panel" id="resForm" style="margin-top:20px;display:none" novalidate>
+      <strong id="resTitle"></strong>
+      <div class="row">
+        <label class="f">Work email<input type="email" name="email" required></label>
+        <label class="f">Institution / company<input type="text" name="inst" required></label>
+      </div>
+      <div class="err" id="resErr" role="alert"></div>
+      <button class="btn btn-primary" type="submit">Send it to me</button>
+    </form>
+    <div id="resOut" aria-live="polite" style="margin-top:14px"></div>
+  </div>
+</section>
+
+<!-- INSIGHTS & ENGAGEMENT -->
+<section class="band" id="engage">
+  <div class="wrap">
+    <h2>Stay close to the skills conversation</h2>
+    <hr class="rule">
+    <p class="lede">A short brief for leaders, placement teams, faculty, students and employers: what is changing in hiring and skills, and what it means for campuses. Tell us what you care about and take part in the pulse polls.</p>
+    <div class="g2" style="margin-top:26px">
+      <div class="panel nlbox">
+        <h3>Subscribe to the SkillWiz brief</h3>
+        <form class="form" id="nlForm" style="margin-top:14px" novalidate>
+          <div class="row">
+            <label class="f">Work or college email<input type="email" name="email" required></label>
+            <label class="f">I am a<select name="who"><option>University leadership</option><option>Placement office</option><option>Faculty</option><option>Student</option><option>Employer</option></select></label>
+          </div>
+          <div><span style="font-weight:700;font-size:.9rem">Topics</span>
+            <div class="checks" style="margin-top:6px">
+              <label><input type="checkbox" name="topic" value="Skills-based hiring" checked>Skills-based hiring</label>
+              <label><input type="checkbox" name="topic" value="AI and jobs">AI and jobs</label>
+              <label><input type="checkbox" name="topic" value="Accreditation">NAAC / NBA / NIRF</label>
+              <label><input type="checkbox" name="topic" value="Semiconductors and defence">Semiconductors &amp; defence</label>
+              <label><input type="checkbox" name="topic" value="Internships">Internships</label>
+              <label><input type="checkbox" name="topic" value="Startups">Student startups</label>
+            </div>
+          </div>
+          <label style="font-size:.86rem;display:flex;gap:8px;align-items:flex-start"><input type="checkbox" name="consent" required style="margin-top:4px"> I agree to receive the SkillWiz brief and can unsubscribe at any time.</label>
+          <div class="err" id="nlErr" role="alert"></div>
+          <button class="btn btn-primary" type="submit">Subscribe</button>
+        </form>
+        <div id="nlOut" aria-live="polite" style="margin-top:12px"></div>
+      </div>
+      <div class="panel">
+        <h3>Pulse poll</h3>
+        <div class="tabs" id="pollTabs" role="group" aria-label="Choose a poll" style="margin:12px 0 4px">
+          <button class="chip" type="button" data-k="emp" aria-pressed="true">Employers</button>
+          <button class="chip" type="button" data-k="stu" aria-pressed="false">Students</button>
+        </div>
+        <div id="pollBox"></div>
+        <p class="fine" style="margin:6px 0 0">One question, no email needed. Results are shared in aggregate in the brief.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- CAREERS -->
+<section class="band band-green" id="careers">
+  <div class="wrap">
+    <h2>Build India's employability infrastructure with us</h2>
+    <hr class="rule">
+    <p class="lede">We hire people who want to turn four years of college into proof. Tell us where to write and we will send roles that fit.</p>
+    <div class="g4" style="margin-top:26px">
+      <div class="panel res"><h3>Careers</h3><p>Product, engineering, academic delivery, partnerships and sales across Gurugram, Jaipur and Bhubaneswar.</p><button class="btn btn-ghost btn-sm" data-res="Careers alert" data-title="Tell us where to send SkillWiz career openings">Get role alerts</button></div>
+      <div class="panel res"><h3>Internships</h3><p>Work on real student-outcome problems with the product, content and customer-success teams.</p><button class="btn btn-ghost btn-sm" data-res="Internship alert" data-title="Tell us where to send SkillWiz internship openings">Apply for internships</button></div>
+      <div class="panel res"><h3>Life at SkillWiz</h3><p>How we work, what we value and what a week looks like, from the people who build the platform.</p><button class="btn btn-ghost btn-sm" data-res="Life at SkillWiz" data-title="Where should we send the Life at SkillWiz note?">Meet the team</button></div>
+      <div class="panel res"><h3>Partner with us</h3><p>Content creators, trainers, labs and technology companies: join the partner network under one MoU and SLA.</p><button class="btn btn-ghost btn-sm" data-res="Partner enquiry" data-title="Tell us about your partnership idea">Become a partner</button></div>
+    </div>
+  </div>
+</section>
+
+<!-- FAQ -->
+<section class="band" id="faq">
+  <div class="wrap" style="max-width:860px">
+    <h2>Questions we hear most</h2>
+    <hr class="rule">
+    <details><summary>How is this different from a placement-training vendor or an LMS?</summary><p>A training vendor delivers sessions; an LMS delivers content. SkillWiz 2.0 connects baselining, goal-setting, learning, assessment, projects, mentoring and outcomes in one journey and records the evidence in each student's Karm-Patri, so the University sees the change in capability, not just attendance.</p></details>
+    <details><summary>What does it cost?</summary><p>₹2,500 per active student per year for the core platform, excluding GST. Extended services such as proctored examinations, training, labs, EUTP, admissions and UMS are quoted on scope.</p></details>
+    <details><summary>Do we have to commit the whole university at once?</summary><p>No. We recommend a university-specific demonstration followed by an 8–12 week controlled pilot on one cohort, with success measures agreed beforehand and a documented scale, refine or stop decision at the end.</p></details>
+    <details><summary>Who owns the student data?</summary><p>The University. SkillWiz processes data only to deliver the agreed services, aligned with the Digital Personal Data Protection Act, 2023. Parent and recruiter visibility is enabled only where the University allows it and the student consents.</p></details>
+    <details><summary>Which students benefit most?</summary><p>The core cohort is usually 5th and 6th semester students, with second year optional. The journey can be extended to a full first-to-eighth-semester Karm-Patri: Discover, Build, Stretch, Launch.</p></details>
+    <details><summary>Does it integrate with our ERP and LMS?</summary><p>Yes. Single sign-on and integration with SIS / ERP, LMS and T&amp;P systems run through standard APIs or scheduled data exchange, reviewed with your IT team before go-live.</p></details>
+    <details><summary>We are a company. How do we reach students?</summary><p>Share a job description. We map it to competencies, shortlist from the Verified Pool through Karm-Patri evidence, pre-screen with custom assessments and AI interviews, and can train selected students to your role specification before they join.</p></details>
+    <details><summary>How long before we go live?</summary><p>Discovery and design take 2–3 weeks, then the pilot runs 8–12 weeks on one cohort. Onboarding, baseline and dashboards are live from the start of the pilot; the plan follows your academic calendar.</p></details>
+    <details><summary>How is student data protected?</summary><p>Each stakeholder sees only what their role permits. Access logging, proctoring audit trails and data-protection controls are documented and reviewed with your IT team before go-live, and retention is agreed in the MoU.</p></details>
+    <details><summary>Is it only for engineering colleges?</summary><p>No. One Karm-Patri framework is configured per discipline: engineering, science, management, health science and agriculture, not an engineering-only tool.</p></details>
+  </div>
+</section>
+
+<!-- CONTACT -->
+<section class="band band-green" id="contact">
+  <div class="wrap g2">
+    <div>
+      <h2>Talk to the SkillWiz team</h2>
+      <hr class="rule">
+      <p class="lede">Tell us who you are and we will route you to the right person.</p>
+      <p style="margin-top:22px"><strong>Call</strong><br><a href="tel:+919850696969" style="color:#fff">+91-98506 96969</a></p>
+      <p><strong>Email</strong><br><a href="mailto:info@myskillwiz.com" style="color:#fff">info@myskillwiz.com</a></p>
+      <p><strong>Office</strong><br>D-403, Shreeram South Court, Nr. DMart, Goner Road, Jagatpura, Jaipur, Rajasthan – 302017</p>
+      <p><strong>WhatsApp</strong><br>+91 70424 20280</p>
+      <p><a class="btn btn-ghost" href="https://wa.me/917042420280" rel="noopener">Message us on WhatsApp</a></p>
+    </div>
+    <div class="panel" style="color:var(--ink)">
+      <form class="form" id="leadForm" novalidate>
+        <label class="f">I am a<select name="role" id="leadRole">
+          <option value="lead">Vice-Chancellor / Principal / management</option>
+          <option value="fac">Faculty member / HoD</option>
+          <option value="tpo">Training &amp; Placement officer</option>
+          <option value="stu">Student</option>
+          <option value="emp">Employer / recruiter</option>
+        </select></label>
+        <div class="row">
+          <label class="f">Name<input type="text" name="name" autocomplete="name" required></label>
+          <label class="f">Phone / WhatsApp<input type="tel" name="phone" autocomplete="tel"></label>
+        </div>
+        <label class="f">Email<input type="email" name="email" autocomplete="email" required></label>
+        <label class="f"><span id="orgLabel">Institution</span><input type="text" name="org" required></label>
+        <div id="roleExtra"></div>
+        <div><span style="font-weight:700;font-size:.9rem">Preferred demonstration slot (optional)</span>
+          <div class="slots">
+            <select name="slot_date" id="slotDate" aria-label="Preferred date"><option value="">Choose a date</option></select>
+            <select name="slot_time" aria-label="Preferred time"><option value="">Choose a time (IST)</option><option>10:00 to 11:00</option><option>12:00 to 13:00</option><option>15:00 to 16:00</option><option>17:00 to 18:00</option></select>
+          </div>
+        </div>
+        <label class="f">Anything we should know?<textarea name="msg"></textarea></label>
+        <label style="font-size:.86rem;display:flex;gap:8px;align-items:flex-start"><input type="checkbox" name="consent" required style="margin-top:4px"> I agree to be contacted by SkillWiz about this enquiry.</label>
+        <div class="err" id="leadErr" role="alert"></div>
+        <button class="btn btn-primary" type="submit" id="leadBtn">Schedule my demonstration</button>
+      </form>
+      <div id="leadOut" aria-live="polite"></div>
+    </div>
+  </div>
+</section>
+</main>
+
+<footer class="site">
+  <div class="wrap foot-grid">
+    <div>
+      <a class="logo" href="#top"><b>SKILL</b><i style="color:#fff">WIZ</i></a>
+      <p style="margin-top:12px">An initiative of myPerfectice Educare Private Limited. An AI-powered university transformation platform.</p>
+      <div class="motto">Transforming the nation <span>by transforming universities</span></div>
+    </div>
+    <div><h4>Who it is for</h4><ul><li><a href="#leadership">Management</a></li><li><a href="#faculty">Faculty &amp; T&amp;P</a></li><li><a href="#students">Students</a></li><li><a href="#employers">Employers</a></li></ul></div>
+    <div><h4>Platform</h4><ul><li><a href="#karm-patri">Karm-Patri</a></li><li><a href="#journey">Student journey</a></li><li><a href="#platform">Layers &amp; services</a></li><li><a href="#pricing">Pricing</a></li><li><a href="#industries">Industry radar</a></li><li><a href="#engage">Insights &amp; polls</a></li><li><a href="#careers">Careers</a></li><li><a href="#faq">FAQ</a></li></ul></div>
+    <div><h4>Contact</h4><ul><li><a href="mailto:info@myskillwiz.com">info@myskillwiz.com</a></li><li><a href="tel:+919850696969">+91-98506 96969</a></li><li><a href="https://www.myskillwiz.com">www.myskillwiz.com</a></li></ul><p style="margin-top:14px">© 2026 myPerfectice Educare Private Limited</p></div>
+  </div>
+</footer>
+
+<button class="cb-fab" id="cbFab" aria-expanded="false" aria-controls="cb"><i></i><span>Ask SkillWiz</span></button>
+<div class="cb" id="cb" role="dialog" aria-label="SkillWiz assistant">
+  <div class="cb-h"><div><strong>SkillWiz assistant</strong><small>Instant answers. A person follows up on request.</small></div><button type="button" id="cbX" aria-label="Close chat">&times;</button></div>
+  <div class="cb-m" id="cbM" aria-live="polite"></div>
+  <div class="cb-q" id="cbQ"></div>
+  <form class="cb-f" id="cbF" autocomplete="off"><input type="text" id="cbI" placeholder="Ask about pricing, pilots, data..." aria-label="Your question"><button class="btn btn-primary btn-sm" type="submit">Send</button></form>
+</div>
+<button id="toTop" aria-label="Back to top">&#8593;</button>
+
+<dialog class="auth" id="auth" aria-label="Log in or create a SkillWiz account">
+  <button class="ax" type="button" id="authX" aria-label="Close">&times;</button>
+  <div class="auth-in">
+    <span class="tag" id="authTag">Student</span>
+    <h3 id="authTitle">Log in to SkillWiz</h3>
+    <div class="tabs" role="group" aria-label="Log in or create an account" id="authTabs">
+      <button class="chip" type="button" data-mode="login" aria-pressed="true">Log in</button>
+      <button class="chip" type="button" data-mode="signup" aria-pressed="false">Create account</button>
+    </div>
+    <div class="notice" id="authPrev" hidden>Preview mode: accounts are not connected yet. Add your Supabase URL and anon key in this page to switch them on.</div>
+    <form class="form" id="authForm" novalidate>
+      <div data-f="signup" hidden>
+        <label class="f">Full name<input type="text" name="full_name" autocomplete="name"></label>
+        <label class="f">I am a<select name="role" id="authRole">
+          <option value="student">Student</option>
+          <option value="faculty">Faculty / mentor</option>
+          <option value="tpo">TPO / department</option>
+          <option value="leadership">University leadership</option>
+          <option value="recruiter">Recruiter / employer</option>
+        </select></label>
+        <div class="row">
+          <label class="f">Institution / company<input type="text" name="org" autocomplete="organization"></label>
+          <label class="f">Phone (optional)<input type="tel" name="phone" autocomplete="tel"></label>
+        </div>
+      </div>
+      <label class="f">Email<input type="email" name="email" autocomplete="email" required></label>
+      <label class="f" id="authPwWrap">Password<input type="password" name="password" autocomplete="current-password" minlength="8"></label>
+      <label data-f="signup" hidden style="display:flex;gap:8px;align-items:flex-start;font-size:.84rem;font-weight:600"><input type="checkbox" name="consent" style="margin-top:4px"> I agree to SkillWiz storing my details to run my account and contact me about my enquiry.</label>
+      <div class="err" id="authMsg" role="alert" aria-live="polite"></div>
+      <button class="btn btn-primary" type="submit" id="authGo">Log in</button>
+    </form>
+    <p class="fine" id="authAlt" style="margin:14px 0 0"><button class="linkbtn" type="button" id="authMagic">Email me a login link</button> &nbsp;·&nbsp; <button class="linkbtn" type="button" id="authForgot">Forgot password?</button></p>
+  </div>
+</dialog>
+
+<div class="sticky-cta">
+  <span>See SkillWiz 2.0 configured for your institution.</span>
+  <a class="btn btn-primary btn-sm" href="#proposal">Build your proposal</a>
+  <a class="btn btn-ghost btn-sm" href="#contact">Talk to us</a>
+</div>
+
+<script>
+(function(){
+"use strict";
+const $=(s,r=document)=>r.querySelector(s), $$=(s,r=document)=>[...r.querySelectorAll(s)];
+const esc=s=>String(s).replace(/[&<>"']/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]));
+const validEmail=e=>/^[^\s@]+@[^\s@]+\.[^\s@]{2,}$/.test(e);
+
+/* ---- LEAD CAPTURE: connect this one function to your CRM / form endpoint ---- */
+/* ---- SUPABASE: paste your project URL and public anon key. NEVER put the service_role key here. ---- */
+const SUPABASE_URL="https://gseqgqqjctdatmzokeoz.supabase.co"; // e.g. "https://abcdefgh.supabase.co"  (Project Settings > API > Project URL)
+const SUPABASE_ANON_KEY="eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImdzZXFncXFqY3RkYXRtem9rZW96Iiwicm9sZSI6ImFub24iLCJpYXQiOjE3OTE2ODQxOTEsImV4cCI6MjEwNzI2MDE5MX0.2nLHqNafl7OddP9vQRJiv_ZIpPF1QvOW4-f8K9LhaTQ"; // Project Settings > API > anon public key
+let sbClient=null; // set once Supabase has loaded
+const LEAD_ENDPOINT=""; // e.g. "https://your-crm.example/leads". Leave empty and forms run in preview mode.
+function flag(msg,fail){setTimeout(()=>$$(".ok:not([data-n])").forEach(el=>{el.dataset.n="1";if(fail){el.classList.add("fail");el.innerHTML="<b>Not sent.</b> "+msg;return}el.insertAdjacentHTML("beforeend",'<span style="display:block;font-weight:600;font-size:.84rem;margin-top:8px">'+msg+"</span>")}),0)}
+function submitLead(source,data){
+  const payload={source,data,page:location.href,ts:new Date().toISOString()};
+  if(sbClient){
+    return sbClient.from("leads").insert({source,data,page:location.href}).then(({error})=>{
+      if(error){flag("We could not send this just now. Please email info@myskillwiz.com or call +91-98506 96969.",true);return false}
+      return true
+    },()=>{flag("We could not send this just now. Please email info@myskillwiz.com or call +91-98506 96969.",true);return false});
+  }
+  if(!LEAD_ENDPOINT){flag("Preview mode: this form is not connected yet, so nothing was sent. Connect Supabase (or set LEAD_ENDPOINT) before launch.");return Promise.resolve(false)}
+  return fetch(LEAD_ENDPOINT,{method:"POST",headers:{"Content-Type":"application/json"},body:JSON.stringify(payload)})
+    .then(r=>{if(!r.ok)throw new Error(r.status);return true})
+    .catch(()=>{flag("We could not send this just now. Please email info@myskillwiz.com or call +91-98506 96969.",true);return false});
+}
+const formData=f=>{const o={};new FormData(f).forEach((v,k)=>{o[k]=o[k]?[].concat(o[k],v):v});return o};
+
+/* nav */
+const tog=$(".nav-toggle"),links=$("#navlinks");
+tog.addEventListener("click",()=>{const o=links.classList.toggle("open");tog.setAttribute("aria-expanded",o)});
+links.addEventListener("click",e=>{if(e.target.tagName==="A"){links.classList.remove("open");tog.setAttribute("aria-expanded",false)}});
+
+/* money in Indian units */
+function inr(n){
+  if(n>=1e7) return "₹"+(n/1e7).toFixed(2)+" crore";
+  if(n>=1e5) return "₹"+(n/1e5).toFixed(2)+" lakh";
+  return "₹"+Math.round(n).toLocaleString("en-IN");
+}
+
+/* Karm-Patri renderer */
+const students={
+  ece:{name:"Sample student",prog:"B.Tech ECE, 3rd Year",idx:87,dims:[["Cognitive","92/100",92],["Coding","78/100",78],["Core technical (ECE)","85/100",85],["Company mocks","12 cleared",80],["Global credentials","Cyber + AI",100],["Personal interview","84/100",84],["Projects shipped","4 live",80],["Founder track","EUTP active",100]]},
+  cse:{name:"Sample student",prog:"B.Tech CSE, 4th Year",idx:91,dims:[["Cognitive","88/100",88],["Coding","94/100",94],["Core technical (CSE)","90/100",90],["Company mocks","16 cleared",90],["Global credentials","AI / ML",100],["Personal interview","86/100",86],["Projects shipped","6 live",100],["Founder track","Not opted",0]]},
+  me:{name:"Sample student",prog:"B.Tech ME, 2nd Year",idx:64,dims:[["Cognitive","74/100",74],["Coding","52/100",52],["Core technical (ME)","71/100",71],["Company mocks","3 cleared",25],["Global credentials","In progress",40],["Personal interview","60/100",60],["Projects shipped","1 live",25],["Founder track","I-Camp stage",50]]}
+};
+function renderKp(el,s){
+  const C=2*Math.PI*52, off=C*(1-s.idx/100);
+  el.innerHTML=`<div class="kp-head"><div><strong>Karm-Patri: personal performance record</strong><small>${esc(s.name)} · ${esc(s.prog)}</small></div><span class="kp-ver">Verified</span></div>
+  <div class="kp-body"><div class="kp-ring"><svg viewBox="0 0 130 130" role="img" aria-label="Placeability Index ${s.idx} out of 100"><circle cx="65" cy="65" r="52" fill="none" stroke="#EFE7D8" stroke-width="13"/><circle cx="65" cy="65" r="52" fill="none" stroke="#F47B20" stroke-width="13" stroke-dasharray="${C}" stroke-dashoffset="${C}" transform="rotate(-90 65 65)" style="transition:stroke-dashoffset .9s ease" class="arc"/><text x="65" y="78" text-anchor="middle" class="n">${s.idx}</text></svg><p><strong>Placeability Index</strong><br>out of 100, updated every semester</p></div>
+  <div class="kp-dims">${s.dims.map(d=>`<div class="dim"><label>${esc(d[0])}</label><b>${esc(d[1])}</b><div class="bar"><i data-w="${d[2]}"></i></div></div>`).join("")}</div></div>
+  <div class="kp-foot">Illustrative sample. The final layout is co-designed with each partner university.</div>`;
+  requestAnimationFrame(()=>requestAnimationFrame(()=>{
+    $(".arc",el).style.strokeDashoffset=off;
+    $$(".bar i",el).forEach(i=>i.style.width=i.dataset.w+"%");
+  }));
+}
+renderKp($("#heroKp"),students.ece);
+const pick=$("#kpPick");
+[["ece","ECE, 3rd year"],["cse","CSE, 4th year"],["me","Mechanical, 2nd year"]].forEach(([k,l],i)=>{
+  const b=document.createElement("button");b.className="chip";b.textContent=l;b.setAttribute("aria-pressed",i===0);
+  b.addEventListener("click",()=>{$$("button",pick).forEach(x=>x.setAttribute("aria-pressed",x===b));renderKp($("#kpDemo"),students[k])});
+  pick.appendChild(b);
+});
+renderKp($("#kpDemo"),students.ece);
+
+/* hero audience switch */
+const aud={
+  lead:{h:"Degrees don't get hired.<em>Proof does.</em>",p:"SkillWiz 2.0 is a university-wide operating layer that connects baselining, learning, assessment, projects, mentoring and outcomes, and records every step in each student's Karm-Patri.",a:["Build your proposal","#proposal"],b:["See a Karm-Patri","#karm-patri"],role:"lead"},
+  fac:{h:"See which student needs you<em>this week.</em>",p:"A mentor console with learning needs, progress and intervention priorities for every student you guide, and evidence for accreditation captured as they work.",a:["Ask for a faculty walkthrough","#contact"],b:["What faculty get","#faculty"],role:"fac"},
+  stu:{h:"Four years of college,<em>turned into proof.</em>",p:"A personalised path from where you are to where you want to go, with every test, project and interview recorded in a Karm-Patri you carry for life.",a:["Take the readiness self-check","#quiz"],b:["See a Karm-Patri","#karm-patri"],role:"stu"},
+  emp:{h:"Hire interns and freshers<em>on evidence.</em>",p:"Search a verified pool of students across partner universities. Shortlist by stream, credential, role and Karm-Patri score, then pre-screen within 48 hours.",a:["Request a shortlist plan","#empForm"],b:["How hiring works","#employers"],role:"emp"}
+};
+function setAud(k){
+  const d=aud[k];
+  $("#heroH").innerHTML=d.h; $("#heroP").textContent=d.p;
+  [$("#heroH"),$("#heroP")].forEach(el=>{el.classList.remove("swap");void el.offsetWidth;el.classList.add("swap")});
+  const a=$("#heroA"),b=$("#heroB");a.textContent=d.a[0];a.href=d.a[1];b.textContent=d.b[0];b.href=d.b[1];
+  $$(".who .chip").forEach(c=>c.setAttribute("aria-pressed",c.dataset.aud===k));
+  setRole(d.role);
+}
+$$(".who .chip").forEach(c=>c.addEventListener("click",()=>setAud(c.dataset.aud)));
+
+/* journey */
+const stg=[
+ ["Baseline","Know where I stand: skills, interests and aspirations. A goal set after measurement is data-driven, not emotion-driven. Every student starts with a Universal Baseline Assessment across the 4C framework."],
+ ["Set goal","A data-driven destination: a career, a venture or both. The goal shapes everything that follows."],
+ ["Personalised plan","An AI learning path built for this goal, with proficiency bucketing so each student starts at the right level.",1],
+ ["Learn, practise, assess","Curated content with continuous micro-assessment. Weekly and monthly progress reports go to mentors and the T&P team.",1],
+ ["Apply","Projects and real-world scenarios captured as evidence, connected to the skills they demonstrate.",1],
+ ["Mentor & guide","Faculty, industry experts and AI guidance. Interventions are raised, tracked and closed.",1],
+ ["Mock readiness","Company-specific mocks and AI interviews, scored on a comparable rubric with unlimited practice."],
+ ["Outcome","Employment, enterprise and economic value, mapped back to the journey. The cycle repeats every semester."]
+];
+const stEl=$("#stages"),stD=$("#stageDetail");
+stg.forEach((s,i)=>{
+  const b=document.createElement("button");b.className="stage"+(s[2]?" loop":"")+(i===7?" last":"");b.setAttribute("role","tab");
+  b.innerHTML=`<span class="num">${i+1}</span><b>${esc(s[0])}</b>`;
+  b.addEventListener("click",()=>selStage(i));stEl.appendChild(b);
+});
+function selStage(i){
+  $$(".stage",stEl).forEach((b,j)=>b.setAttribute("aria-selected",j===i));
+  stD.innerHTML=`<h3>Stage ${i+1}: ${esc(stg[i][0])}</h3><p style="margin:8px 0 0">${esc(stg[i][1])}</p>${stg[i][2]?'<p class="fine" style="margin:10px 0 0">Part of the closed loop. This stage updates the Karm-Patri.</p>':''}`;
+}
+selStage(0);
+
+/* stakeholder tabs */
+const roles=[
+ ["Students","Personalised journey, progress, evidence, mentoring and opportunity alignment.","Student app, web and mobile",["Where do I stand and what should I learn next","A shareable, verified Karm-Patri","AI mock interviews at any hour"]],
+ ["Faculty & mentors","Visibility into learning needs, student progress and mentoring priorities.","Mentor console",["Students who need attention this week","Project and observation capture","Intervention tracking"]],
+ ["Training & Placement","Cohort readiness, role mapping, opportunity targeting and intervention tracking.","TPO dashboard",["Weekly and monthly progress reports","JD-to-competency mapping","Drive, shortlist and offer tracking"]],
+ ["Heads of Department","Department-wise readiness heat-maps and intervention priorities.","Department dashboard",["Section and subject heat-maps","Attainment evidence for NBA","Where to intervene first"]],
+ ["VC & leadership","Institution-wide view of capability, employability and the innovation pipeline.","Leadership dashboard",["One view across schools and years","Accreditation-ready reporting","KPIs against your own baseline"]],
+ ["Owners & trustees","Return on the investment in students: reputation, admissions pull, placement outcomes and a long-term alumni equity portfolio.","Trustee summary view",["Outcome KPIs against your own baseline","One accountable partner instead of many vendors","Alumni equity pipeline through EUTP, where adopted"]],
+ ["Parents","A clear view of the student's development, where the University enables it.","Parent view (optional)",["Evidence-based progress","Visible only with University and student consent"]],
+ ["Industry","Structured access to role-aligned, evidence-backed talent.","Recruiter / Verified Pool access",["Search by stream, credential and score","Pre-screened shortlists","ATS export"]],
+ ["Alumni","Mentoring, industry exposure, referrals and ecosystem contribution.","Mentor access (optional)",["Mentor matching","Referral and venture support"]]
+];
+const rt=$("#roleTabs"),rp=$("#rolePanel");
+roles.forEach((r,i)=>{const b=document.createElement("button");b.className="chip";b.setAttribute("role","tab");b.textContent=r[0];b.addEventListener("click",()=>selRole(i));rt.appendChild(b)});
+function selRole(i){
+  $$("button",rt).forEach((b,j)=>b.setAttribute("aria-selected",j===i));
+  $$("#hub .node").forEach((n,j)=>n.classList.toggle("on",j===i));
+  const r=roles[i];
+  rp.innerHTML=`<div><h3>${esc(r[0])}</h3><p style="margin:8px 0 14px;font-size:1.05rem">${esc(r[1])}</p><ul class="ticks">${r[3].map(x=>`<li>${esc(x)}</li>`).join("")}</ul></div><div class="access"><span class="fine">How they access it</span><div style="font-family:var(--display);text-transform:uppercase;font-size:1.5rem;color:var(--green);line-height:1.15;margin-top:6px">${esc(r[2])}</div></div>`;
+}
+/* stakeholder hub graphic */
+(function(){
+  const names=["Students","Faculty","T&P","HoDs","Leadership","Owners","Parents","Industry","Alumni"],cx=220,cy=200;let sp="",mv="",nd="";
+  names.forEach((n,k)=>{const a=(k*360/names.length-90)*Math.PI/180,x=+(cx+165*Math.cos(a)).toFixed(1),y=+(cy+150*Math.sin(a)).toFixed(1);
+    sp+=`<line class="sp" x1="${x}" y1="${y}" x2="${cx}" y2="${cy}"/>`;
+    const path=k%2?`M${cx},${cy} L${x},${y}`:`M${x},${y} L${cx},${cy}`;
+    mv+=`<circle class="mv" r="4.5"><animateMotion dur="2.8s" begin="${(k*0.35).toFixed(2)}s" repeatCount="indefinite" path="${path}"/></circle>`;
+    nd+=`<g class="node" tabindex="0" role="button" aria-label="${esc(n)} view" data-i="${k}"><rect x="${x-48}" y="${y-18}" width="96" height="36" rx="18"/><text x="${x}" y="${y+4.5}">${esc(n)}</text></g>`});
+  const hub=$("#hub");
+  hub.innerHTML=sp+mv+`<circle class="core" cx="${cx}" cy="${cy}" r="62"/><text class="ct" x="${cx}" y="${cy-1}">KARM-PATRI</text><text class="cs" x="${cx}" y="${cy+15}">one verified record</text>`+nd;
+  const go=e=>{const g=e.target.closest(".node");if(g&&(e.type==="click"||e.key==="Enter"||e.key===" ")){e.preventDefault();selRole(+g.dataset.i)}};
+  hub.addEventListener("click",go);hub.addEventListener("keydown",go);
+})();
+selRole(0);
+
+/* pricing calculator */
+const sr=$("#stuRange");
+function calc(){const n=+sr.value;$("#stuOut").textContent=n.toLocaleString("en-IN");$("#cYear").textContent=inr(n*2500);$("#cMonth").textContent=inr(n*2500/12)}
+sr.addEventListener("input",calc);calc();
+
+/* student self-check */
+const qs=["I know my current strengths and gaps from a recent assessment, not a guess.","I have a specific goal: a role, a sector or a venture idea.","I follow a learning plan built for that goal.","I have projects I can show as evidence.","A mentor reviews my progress regularly.","I have practised company-style tests or mock interviews this semester."];
+const ans=new Array(qs.length).fill(null),qEl=$("#quizQs");
+qs.forEach((q,i)=>{
+  const d=document.createElement("div");d.className="q";
+  d.innerHTML=`<p>${i+1}. ${esc(q)}</p><div class="opts" role="group" aria-label="Question ${i+1}">${[["Yes",2],["Partly",1],["Not yet",0]].map(o=>`<button type="button" data-v="${o[1]}" aria-pressed="false">${o[0]}</button>`).join("")}</div>`;
+  d.addEventListener("click",e=>{const b=e.target.closest("button");if(!b)return;ans[i]=+b.dataset.v;$$("button",d).forEach(x=>x.setAttribute("aria-pressed",x===b));quizOut()});
+  qEl.appendChild(d);
+});
+function quizOut(){
+  const done=ans.filter(a=>a!==null).length,o=$("#quizOut");
+  if(done<qs.length){o.innerHTML=`<p class="fine">${done} of ${qs.length} answered.</p>`;return}
+  const pct=Math.round(ans.reduce((a,b)=>a+b,0)/(qs.length*2)*100);
+  const msg=pct>=75?"You are building evidence already. A verified Karm-Patri would let recruiters see it.":pct>=40?"You have started. A baseline assessment and a plan built for your goal would close the gaps faster.":"Most students are here in the early years. The first step is a baseline: knowing where you stand.";
+  o.innerHTML=`<strong>Self-check result: ${pct}%</strong><div class="meter"><i style="width:${pct}%"></i></div><p>${msg}</p>
+  <form class="form" id="stuForm" novalidate><div class="row"><label class="f">Your college<input type="text" name="college" required></label><label class="f">Email<input type="email" name="email" required></label></div><div class="err" role="alert"></div><button class="btn btn-primary btn-sm" type="submit">Ask SkillWiz to contact my college</button></form>`;
+  $("#stuForm").addEventListener("submit",e=>{e.preventDefault();const f=e.target,d=formData(f);
+    if(!d.college.trim()||!validEmail(d.email)){$(".err",f).textContent="Enter your college and a valid email address.";return}
+    submitLead("student-self-check",{...d,score:pct}).then(()=>{f.outerHTML='<div class="ok">Request received. We will contact your placement office and write back to you.</div>'});
+  });
+}
+quizOut();
+
+/* employer form */
+const ef=$("#empForm");
+ef.min.addEventListener("input",()=>$("#minOut").textContent=ef.min.value);
+ef.addEventListener("submit",e=>{
+  e.preventDefault();const d=formData(ef),streams=[].concat(d.stream||[]);
+  if(!d.role.trim()){$("#empErr").textContent="Enter a role title.";return}
+  if(!streams.length){$("#empErr").textContent="Choose at least one stream.";return}
+  if(!validEmail(d.email)){$("#empErr").textContent="Enter a valid work email address.";return}
+  $("#empErr").textContent="";
+  submitLead("employer-shortlist",d).then(()=>{
+    $("#empOut").innerHTML=`<div class="ok">Request received for "${esc(d.role)}" (${esc(d.type)}, ${esc(d.n)} position${d.n==1?"":"s"}).</div>
+    <p style="margin:12px 0 6px;font-weight:800;color:var(--green)">What happens next</p>
+    <ol style="margin:0;padding-left:20px"><li>We map your job description to competencies.</li><li>We shortlist ${esc(streams.join(", "))} students with a Placeability Index of ${esc(d.min)} or above from the Verified Pool.</li><li>Custom assessment and AI interview pre-screening, within 48 hours of launch.</li><li>You interview a short, evidence-backed list. Profiles export to your ATS.</li></ol>`;
+  });
+});
+
+/* proposal builder */
+const mods={
+  place:["A1 Employability Suite + Karm-Patri (core)","A6 AI Personal Interview","A12 Placement Portal & Verified Pool","A13 Campus Placement Services & Day-0 Productivity"],
+  accr:["A1 Employability Suite + Karm-Patri (core)","Accreditation reporting: NAAC Criterion 5, NBA attainment, NIRF Graduation Outcomes"],
+  entr:["A8 EUTP: Entrepreneurship & Incubation"],
+  exam:["A2 Proctored & Non-Proctored Assessments","A3 Examination Management & Digital Evaluation"],
+  train:["A4 Offline (Classroom) Training","A5 Online & Live Virtual Training","A7 Global Credentialing"],
+  labs:["A9 STEM Labs & Centres of Excellence"],
+  sys:["A10 Admissions Management","A11 University Management System (UMS)"]
+};
+const pf=$("#propForm");let lastProp=null;
+pf.addEventListener("submit",e=>{
+  e.preventDefault();const d=formData(pf),pri=[].concat(d.pri||[]),total=+d.total,pilot=+d.pilot;
+  if(!d.inst.trim()){$("#propErr").textContent="Enter your institution's name.";return}
+  if(!(total>=100)){$("#propErr").textContent="Enter the number of active students (100 or more).";return}
+  if(!(pilot>=50)||pilot>total){$("#propErr").textContent="Pilot cohort should be at least 50 and no larger than the total.";return}
+  $("#propErr").textContent="";
+  const list=["A1 Employability Suite + Karm-Patri (core)"];
+  pri.forEach(p=>mods[p].forEach(m=>{if(!list.includes(m))list.push(m)}));
+  const pilotFee=pilot*2500*12/52;
+  lastProp={...d,pri,annual:total*2500,pilotFee};
+  $("#propOut").innerHTML=`<div class="prop-head"><small>Proposal outline · FY 2026–27</small><div>SkillWiz 2.0 for ${esc(d.inst)}</div><span style="font-size:.86rem;color:#CFE0D6">${esc(d.kind)}${d.city?", "+esc(d.city):""}</span></div>
+  <div class="prop-body">
+   <h4>Core platform at ₹2,500 per active student per year</h4>
+   <div class="prop-nums"><div><b>${inr(total*2500)}</b><span>annual fee for ${total.toLocaleString("en-IN")} students</span></div><div><b>${inr(total*2500/12)}</b><span>monthly equivalent</span></div><div><b>${inr(pilotFee)}</b><span>12-week pilot for ${pilot.toLocaleString("en-IN")} students, pro-rata estimate</span></div><div><b>₹6.85</b><span>per student per day</span></div></div>
+   <p class="fine" style="margin:8px 0 0">Illustrative. Excludes GST. The pilot fee is adjusted against the Year-1 invoice on scale-up.</p>
+   <h4>Recommended scope</h4><ul>${list.map(m=>`<li>${esc(m)}${m.startsWith("A1 ")?"":' <span class="fine">(quoted on scope)</span>'}</li>`).join("")}</ul>
+   <h4>Four weeks to a decision</h4><ul><li>Week 0: evaluation team of 3–6 stakeholders nominated</li><li>Week 1: discovery session</li><li>Week 2: live demonstration mapped to your processes</li><li>Week 3: final pilot proposal</li><li>Week 4: letter of intent / MoU signed</li></ul>
+   <h4>Get the full proposal</h4>
+   <form class="form" id="propSend" novalidate><div class="row"><label class="f">Your name<input type="text" name="name" required></label><label class="f">Designation<input type="text" name="title"></label></div><div class="row"><label class="f">Official email<input type="email" name="email" required></label><label class="f">Phone<input type="tel" name="phone"></label></div><div class="err" role="alert"></div><div style="display:flex;gap:10px;flex-wrap:wrap"><button class="btn btn-primary btn-sm" type="submit">Send me the full proposal</button></div></form>
+  </div>`;
+  $("#propSend").addEventListener("submit",ev=>{ev.preventDefault();const f=ev.target,c=formData(f);
+    if(!c.name.trim()||!validEmail(c.email)){$(".err",f).textContent="Enter your name and a valid email address.";return}
+    submitLead("proposal-builder",{...lastProp,...c}).then(()=>{f.outerHTML='<div class="ok">Request received. The full proposal for '+esc(lastProp.inst)+' will reach '+esc(c.email)+' within one working day.</div>'});
+  });
+  if(window.innerWidth<900)$("#propOut").scrollIntoView({behavior:"smooth",block:"start"});
+});
+
+/* resources */
+let resName="";
+$$("[data-res]").forEach(b=>b.addEventListener("click",()=>{resName=b.dataset.res;const f=$("#resForm");f.style.display="grid";$("#resTitle").textContent=b.dataset.title||("Send me: "+resName);$("#resOut").innerHTML="";f.scrollIntoView({block:"center",behavior:calm?"auto":"smooth"});f.email.focus({preventScroll:true})}));
+$("#resForm").addEventListener("submit",e=>{e.preventDefault();const f=e.target,d=formData(f);
+  if(!validEmail(d.email)||!d.inst.trim()){$("#resErr").textContent="Enter a valid email address and your institution.";return}
+  $("#resErr").textContent="";
+  submitLead("resource",{...d,resource:resName}).then(()=>{f.style.display="none";f.reset();$("#resOut").innerHTML='<div class="ok">Request received. We will email '+esc(d.email)+' about "'+esc(resName)+'".</div>'});
+});
+
+/* contact form, role-aware */
+const extra={
+  lead:['Institution','<div class="row"><label class="f">Designation<input type="text" name="title"></label><label class="f">Approx. students<input type="number" name="students" min="0"></label></div>','Schedule my demonstration'],
+  fac:['Institution','<label class="f">Department<input type="text" name="dept"></label>','Request a faculty walkthrough'],
+  tpo:['Institution','<label class="f">Final-year batch size<input type="number" name="batch" min="0"></label>','Schedule my demonstration'],
+  stu:['College','<div class="row"><label class="f">Programme / branch<input type="text" name="branch"></label><label class="f">Year<select name="year"><option>1st</option><option>2nd</option><option>3rd</option><option>4th</option></select></label></div>','Ask SkillWiz to contact my college'],
+  emp:['Company','<div class="row"><label class="f">Hiring for<select name="hire"><option>Interns</option><option>Freshers</option><option>Both</option></select></label><label class="f">Positions this year<input type="number" name="positions" min="0"></label></div>','Book a Verified Pool walkthrough']
+};
+const lr=$("#leadRole");
+function setRole(k){ if(!extra[k])return; lr.value=k; $("#orgLabel").textContent=extra[k][0]; $("#roleExtra").innerHTML=extra[k][1]; $("#leadBtn").textContent=extra[k][2]; }
+lr.addEventListener("change",()=>setRole(lr.value));
+$$("[data-role]").forEach(a=>a.addEventListener("click",()=>setRole(a.dataset.role)));
+$("#leadForm").addEventListener("submit",e=>{e.preventDefault();const f=e.target,d=formData(f),er=$("#leadErr");
+  if(!d.name.trim()){er.textContent="Enter your name.";return}
+  if(!validEmail(d.email)){er.textContent="Enter a valid email address.";return}
+  if(!d.org.trim()){er.textContent="Enter your "+extra[lr.value][0].toLowerCase()+".";return}
+  if(!f.consent.checked){er.textContent="Tick the box so we can contact you.";return}
+  er.textContent="";
+  submitLead("contact-"+lr.value,d).then(()=>{f.style.display="none";$("#leadOut").innerHTML='<div class="ok">Request received, '+esc(d.name)+'. We reply within one working day with a date.</div>'});
+});
+
+/* sector icons */
+const ico=['<rect x="7" y="7" width="10" height="10" rx="1"/><path d="M10 3v4M14 3v4M10 17v4M14 17v4M3 10h4M3 14h4M17 10h4M17 14h4"/>',
+'<path d="M12 3l7 3v5c0 5-3 8-7 10-4-2-7-5-7-10V6z"/><path d="M9 12l2 2 4-4"/>',
+'<rect x="3" y="8" width="16" height="9" rx="1.5"/><path d="M21 11v3M12 9.5l-2.5 3.5h4L11 16"/>',
+'<path d="M3 15v-3l2-5h14l2 5v3zM5 15v2M19 15v2M5 12h14"/><path d="M12 2v2M8 3l1 1.5M16 3l-1 1.5"/>',
+'<path d="M2 7h11v9H2zM13 10h4l4 3v3h-8z"/><circle cx="6.5" cy="17.5" r="1.8"/><circle cx="17" cy="17.5" r="1.8"/>',
+'<circle cx="12" cy="12" r="3"/><circle cx="5" cy="5" r="1.8"/><circle cx="19" cy="5" r="1.8"/><circle cx="5" cy="19" r="1.8"/><circle cx="19" cy="19" r="1.8"/><path d="M6.3 6.3l3.5 3.5M17.7 6.3l-3.5 3.5M6.3 17.7l3.5-3.5M17.7 17.7l-3.5-3.5"/>',
+'<rect x="5" y="8" width="14" height="11" rx="2"/><path d="M12 8V4.5M9 16h6M3 12v4M21 12v4"/><circle cx="12" cy="3.5" r="1"/><circle cx="9.5" cy="12.5" r="1.2"/><circle cx="14.5" cy="12.5" r="1.2"/>',
+'<path d="M12 2c3 2.5 4.5 6 4.5 9.5V16h-9v-4.5C7.5 8 9 4.5 12 2z"/><circle cx="12" cy="9.5" r="1.7"/><path d="M7.5 13L5 16v3l2.5-1.5M16.5 13l2.5 3v3l-2.5-1.5M10.5 19l1.5 3 1.5-3"/>',
+'<path d="M9 3h6M10 3v6l-5 9a2 2 0 002 3h10a2 2 0 002-3l-5-9V3"/><path d="M8 15h8"/>',
+'<path d="M3 21V10l6 4v-4l6 4V6h6v15z"/><path d="M7 17h2M13 17h2M18 17h1"/>',
+'<path d="M5 19L19 5"/><path d="M14 5h5v5"/><path d="M7 14l-3 1 1-3M10 17l-1 3 3-1"/>',
+'<rect x="6" y="11" width="12" height="9" rx="2"/><path d="M8 11V8a4 4 0 018 0v3"/><circle cx="12" cy="15.5" r="1.2"/>'];
+$$(".sectors button").forEach((d,i)=>d.insertAdjacentHTML("afterbegin",'<svg viewBox="0 0 24 24" aria-hidden="true">'+ico[i]+"</svg>"));
+
+/* employability dot grid + count-up, both start from a complete resting state */
+const dots=$("#dots");for(let i=0;i<100;i++){const d=document.createElement("i");if(i<55){d.className="on";d.style.transitionDelay=(i*18)+"ms"}dots.appendChild(d)}
+const calm=matchMedia("(prefers-reduced-motion: reduce)").matches;
+if("IntersectionObserver" in window&&!calm){
+  const below=el=>el.getBoundingClientRect().top>innerHeight;
+  if(below(dots)){dots.classList.add("pre");new IntersectionObserver((e,o)=>{if(e[0].isIntersecting){dots.classList.remove("pre");o.disconnect()}},{threshold:.4}).observe(dots)}
+  $$(".proof b, .stat b").forEach(b=>{const t=b.textContent,m=t.match(/^([\d,]+(?:\.\d+)?)(.*)$/);if(!m||/^[–-]/.test(m[2])||!below(b))return;
+    const dec=(m[1].split(".")[1]||"").length,end=+m[1].replace(/,/g,"");
+    new IntersectionObserver((e,o)=>{if(!e[0].isIntersecting)return;o.disconnect();const t0=performance.now();
+      (function tick(now){const k=Math.min(1,(now-t0)/1200),v=end*(1-Math.pow(1-k,3));b.textContent=(dec?v.toFixed(dec):Math.round(v).toLocaleString("en-IN"))+m[2];if(k<1)requestAnimationFrame(tick);else b.textContent=t})(t0)},{threshold:.6}).observe(b)});
+}
+
+/* marquee */
+$("#mq").innerHTML+=$("#mq").innerHTML;
+
+/* heat-map cells (sample data) */
+(function(){const cols=["Cognitive","Coding","Core","Mocks","Interview"],rows=[["Sec A",3,3,2,3,2],["Sec B",3,2,2,2,1],["Sec C",2,1,3,2,2],["Sec D",3,2,2,1,1]];
+  let h="<span></span>"+cols.map(c=>"<span>"+c+"</span>").join(""),k=0;
+  rows.forEach(r=>{h+="<span>"+r[0]+"</span>";r.slice(1).forEach(v=>{h+='<i class="l'+v+'" style="--k:'+(k++)+'"></i>'})});
+  $("#heat").innerHTML=h})();
+
+/* reveal on scroll: only elements below the first screen are hidden, and only when motion is welcome */
+(function(){
+  const root=document.documentElement,mk=$$(".mock");
+  if(!("IntersectionObserver" in window)||calm){mk.forEach(m=>m.classList.add("seen"));return}
+  root.classList.add("js");
+  const sel="h2,.rule,.lede,.panel,.stat,blockquote,.phase,.partners div,.tbl-wrap,.callout,details,.mock,.gap,.loopwrap svg,.plat>div,.pipe li,.sectors div,.film,.stage";
+  const io=new IntersectionObserver(es=>es.forEach(e=>{if(e.isIntersecting){e.target.classList.add("seen");io.unobserve(e.target)}}),{threshold:.12,rootMargin:"0px 0px -6% 0px"});
+  const count=new Map();
+  $$(sel).forEach(el=>{
+    if(el.getBoundingClientRect().top<innerHeight){el.classList.add("seen");return}
+    const n=count.get(el.parentNode)||0;count.set(el.parentNode,n+1);
+    el.style.setProperty("--d",Math.min(n,6)*70+"ms");el.classList.add("rv");io.observe(el)});
+  mk.forEach(m=>{if(!m.classList.contains("rv"))m.classList.add("seen")});
+})();
+
+/* journey stages play through until the visitor takes over */
+(function(){if(calm||!("IntersectionObserver" in window))return;let tour=null,ti=0,done=false;
+  const stop=()=>{done=true;clearInterval(tour);tour=null;stD.setAttribute("aria-live","polite")};
+  stEl.addEventListener("pointerdown",stop);stEl.addEventListener("keydown",stop);
+  new IntersectionObserver(e=>{clearInterval(tour);tour=null;if(e[0].isIntersecting&&!done){stD.removeAttribute("aria-live");tour=setInterval(()=>{ti=(ti+1)%8;selStage(ti)},2800)}},{threshold:.6}).observe(stEl)})();
+
+/* explainer film */
+(function(){
+  const sc=$$("#stage .scene"),n=sc.length,DUR=6500,segs=$("#segs"),btn=$("#fPlay");
+  let cur=0,t=0,playing=false,userPaused=false,last=performance.now();
+  sc.forEach((_,i)=>{const s=document.createElement("i");s.innerHTML="<b></b>";s.addEventListener("click",()=>show(i));segs.appendChild(s)});
+  const bars=$$("b",segs);
+  function show(i){cur=(i+n)%n;t=0;sc.forEach((s,j)=>{s.classList.remove("on");if(j===cur){void s.offsetWidth;s.classList.add("on")}});bars.forEach((b,j)=>b.style.width=j<cur?"100%":"0")}
+  function set(p){playing=p;btn.textContent=p?"Pause":"Play"}
+  btn.addEventListener("click",()=>{userPaused=playing;set(!playing)});
+  $("#fPrev").addEventListener("click",()=>show(cur-1));$("#fNext").addEventListener("click",()=>show(cur+1));
+  (function frame(now){const dt=Math.min(100,now-last);last=now;if(playing){t+=dt;if(t>=DUR)show(cur+1);bars[cur].style.width=(t/DUR*100)+"%"}requestAnimationFrame(frame)})(last);
+  if("IntersectionObserver" in window&&!calm)new IntersectionObserver(e=>{if(e[0].isIntersecting){if(!userPaused&&!playing){show(cur);set(true)}}else if(playing)set(false)},{threshold:.5}).observe($("#stage"));
+  window.__film={show,set};
+})();
+
+/* ===================== v2 additions ===================== */
+
+/* scroll progress, back to top, active nav link */
+(function(){
+  const cta=$(".sticky-cta"),setCta=()=>document.documentElement.style.setProperty("--cta",cta.offsetHeight+"px");
+  setCta();addEventListener("resize",setCta);if("ResizeObserver" in window)new ResizeObserver(setCta).observe(cta);
+  const bar=$("#prog"),tt=$("#toTop");
+  const upd=()=>{const max=document.documentElement.scrollHeight-innerHeight;bar.style.width=(max>0?scrollY/max*100:0)+"%";tt.classList.toggle("show",scrollY>900)};
+  addEventListener("scroll",upd,{passive:true});upd();
+  tt.addEventListener("click",()=>scrollTo({top:0,behavior:calm?"auto":"smooth"}));
+  const map=$$('.nav-links > a[href^="#"]:not(.btn)').map(a=>{const t=$(a.getAttribute("href"));return[a,t&&(t.closest("section")||t)]}).filter(x=>x[1]);
+  if("IntersectionObserver" in window){
+    const io=new IntersectionObserver(es=>es.forEach(e=>{if(e.isIntersecting)map.forEach(([a,s])=>a.classList.toggle("active",s===e.target))}),{rootMargin:"-45% 0px -50% 0px"});
+    new Set(map.map(x=>x[1])).forEach(s=>io.observe(s));
+  }
+})();
+
+/* nav dropdowns */
+(function(){
+  const dds=$$(".dd");
+  const close=()=>dds.forEach(d=>{$(".ddb",d).setAttribute("aria-expanded","false");$(".ddm",d).hidden=true});
+  dds.forEach(d=>{
+    const b=$(".ddb",d),m=$(".ddm",d);
+    b.addEventListener("click",e=>{e.stopPropagation();const open=m.hidden;close();m.hidden=!open;b.setAttribute("aria-expanded",open)});
+    m.addEventListener("click",e=>{if(e.target.closest("a")){close();links.classList.remove("open");tog.setAttribute("aria-expanded",false)}});
+  });
+  document.addEventListener("click",close);
+  document.addEventListener("keydown",e=>{if(e.key==="Escape")close()});
+})();
+
+/* industry radar */
+(function(){
+  const R=[
+   ["Chip design","India is building a semiconductor design talent base. ECE graduates with verified fundamentals are the entry point.",["VLSI design engineer","Verification engineer","Physical design engineer","Embedded engineer"],["Digital design","Verilog / SystemVerilog","Computer architecture","EDA tool basics"],"ECE-specific PlaceMe content, chip-design pathways with an OEM partner in Germany, and project evidence recorded in the Karm-Patri."],
+   ["Defence technology","Defence electronics, avionics and systems need engineers who can show applied, tested capability.",["Embedded systems engineer","Signal processing engineer","Systems integration engineer","Test and quality engineer"],["Embedded C / C++","Control systems","RF and communications basics","Systems thinking"],"Core-technical baselines, project evidence from labs and Centres of Excellence, and orientation to the sector from Year 2."],
+   ["EV & battery","Electric mobility and energy storage are creating roles across electrical, mechanical and software streams.",["Battery systems engineer","Power electronics engineer","Vehicle software engineer","Manufacturing engineer"],["Power electronics","Battery management basics","Embedded software","CAD and thermal basics"],"EE and ME core assessments, EV and battery labs, and a visible path from project to role."],
+   ["Autonomous driving","Perception, planning and control combine software, sensors and safety thinking.",["Perception engineer","Controls engineer","Simulation engineer","Embedded software engineer"],["Python and C++","Linear algebra and probability","Sensor basics","Machine learning foundations"],"Coding and cognitive baselines, N2N coding practice and live-project evidence."],
+   ["Logistics","Supply chains are being rebuilt around data, automation and visibility.",["Supply-chain analyst","Operations planner","Warehouse automation engineer","Data analyst"],["Data analysis","Operations research basics","ERP familiarity","Communication"],"Management-stream baselines, analytics credentials with partners and company-specific mocks."],
+   ["AI technology","AI is moving from labs into every sector, with demand for builders and for people who can apply it.",["ML engineer","Data scientist","AI product analyst","MLOps engineer"],["Python","Statistics","Machine learning","Problem framing"],"AI/ML credentials with partners, coding practice, and projects verified in the Karm-Patri."],
+   ["Robotics","Robots combine mechanics, electronics and software; teams need all three.",["Robotics engineer","Mechatronics engineer","Automation engineer","Embedded engineer"],["Embedded systems","Kinematics basics","Control systems","ROS and simulation"],"Robotics and innovation labs on campus, with student projects recorded as evidence."],
+   ["Space technology","A growing private space ecosystem is hiring for design, testing and data.",["Avionics engineer","Mission analyst","Satellite systems engineer","Ground-systems software engineer"],["Embedded systems","Signals and systems","Python","Systems engineering basics"],"Core-technical assessment, hackathons and showcases that turn projects into verified proof."],
+   ["Biotechnology","Bioscience, health and agriculture need graduates who can work with data and instruments.",["Bioinformatics analyst","Research associate","Quality and regulatory associate","Process development associate"],["Lab practice","Data analysis","Statistics","Documentation and compliance"],"One Karm-Patri framework configured for science, health science and agriculture, not only engineering."],
+   ["Manufacturing","Smarter factories need engineers who understand process, quality and automation.",["Production engineer","Quality engineer","Industrial automation engineer","Design engineer"],["CAD","Process and quality tools","PLC and automation basics","Lean basics"],"ME and EE core assessments, industry programmes with partners, and Day-0 productivity training."],
+   ["Ordnance & missile tech","Strategic manufacturing and propulsion need rigorous engineers with verified fundamentals.",["Mechanical design engineer","Materials engineer","Control and guidance engineer","Test engineer"],["Mechanics and thermodynamics","Materials basics","Control systems","Precision and documentation"],"Core-technical baselines in ME, EE and ECE, with verified project evidence for specialist recruiters."],
+   ["Cyber security","Every organisation now needs people who can defend systems and respond to incidents.",["Security analyst","SOC analyst","Penetration tester","Cloud security engineer"],["Networking","Operating systems","Scripting","Security fundamentals"],"Cyber security micro-credentials with an Australian partner, recorded in the Karm-Patri."]
+  ];
+  const sec=$("#sectors"),box=$("#radar");
+  function sel(i){
+    $$("button",sec).forEach((b,j)=>b.setAttribute("aria-pressed",j===i));
+    const r=R[i];
+    box.innerHTML=`<div><h3>${esc(r[0])}</h3><p style="margin:8px 0 0">${esc(r[1])}</p><div class="lbl">Roles students aim for</div><div class="rtags">${r[2].map(x=>`<span>${esc(x)}</span>`).join("")}</div><div class="lbl">Skills to build</div><div class="rtags">${r[3].map(x=>`<span>${esc(x)}</span>`).join("")}</div></div>
+    <div class="help"><span class="fine">How SkillWiz prepares students</span><p style="margin:8px 0 14px;font-weight:600">${esc(r[4])}</p><a class="btn btn-primary btn-sm" href="#contact" data-role="lead">Discuss ${esc(r[0].toLowerCase())} for your campus</a><p class="fine" style="margin:12px 0 0">General orientation, not a prediction of any individual's career.</p></div>`;
+    $(".help a",box).addEventListener("click",()=>setRole("lead"));
+  }
+  $$("button",sec).forEach((b,i)=>b.addEventListener("click",()=>sel(i)));
+  sel(0);
+})();
+
+/* employability gap calculator */
+(function(){
+  const n=$("#gcN"),p=$("#gcP");
+  function run(){
+    const N=Math.max(0,+n.value||0),P=Math.min(100,Math.max(0,+p.value||0));
+    $("#gcA").textContent=Math.round(N*0.452).toLocaleString("en-IN");
+    $("#gcB").textContent=Math.round(N*P/100).toLocaleString("en-IN");
+    const d=P-54.8;$("#gcC").textContent=(d>=0?"+":"")+d.toFixed(1)+" pts";
+  }
+  [n,p].forEach(x=>x.addEventListener("input",run));run();
+  $("#gcForm").addEventListener("submit",e=>{
+    e.preventDefault();const f=e.target,d=formData(f);
+    if(!validEmail(d.email)){$("#gcErr").textContent="Enter a valid email address.";return}
+    $("#gcErr").textContent="";
+    submitLead("gap-calculator",{email:d.email,students:n.value,placedPct:p.value}).then(()=>{f.style.display="none";$("#gcOut").innerHTML='<div class="ok">Request received. Your gap report will reach '+esc(d.email)+' within one working day.</div>'});
+  });
+})();
+
+/* newsletter */
+$("#nlForm").addEventListener("submit",e=>{
+  e.preventDefault();const f=e.target,d=formData(f),er=$("#nlErr");
+  if(!validEmail(d.email)){er.textContent="Enter a valid email address.";return}
+  if(!f.consent.checked){er.textContent="Tick the box so we can send the brief.";return}
+  er.textContent="";
+  submitLead("newsletter",d).then(()=>{f.style.display="none";$("#nlOut").innerHTML='<div class="ok">You are on the list. The next brief will reach '+esc(d.email)+'.</div>'});
+});
+
+/* pulse polls */
+(function(){
+  const P={
+    emp:["Which gap hurts most when you hire freshers?",["Aptitude and problem-solving","Coding or technical depth","Communication and interview skills","Role-specific domain knowledge","Workplace readiness on Day 0"]],
+    stu:["What holds you back most from your target role?",["I do not know where I stand","I have no verified projects or evidence","Interview confidence","Technical depth","I am not sure which role fits me"]]
+  };
+  let k="emp",pick=null;const box=$("#pollBox");
+  function draw(){
+    pick=null;
+    box.innerHTML=`<h3 style="font-size:1.05rem;margin:8px 0 0">${esc(P[k][0])}</h3><div class="popts" role="group" aria-label="Poll options">${P[k][1].map((o,i)=>`<button type="button" class="popt" data-i="${i}" aria-pressed="false">${esc(o)}</button>`).join("")}</div><div class="err" id="pErr" role="alert"></div><button class="btn btn-primary btn-sm" type="button" id="pGo">Submit my vote</button><div id="pOut" aria-live="polite" style="margin-top:12px"></div>`;
+    $$(".popt",box).forEach(b=>b.addEventListener("click",()=>{pick=+b.dataset.i;$$(".popt",box).forEach(x=>x.setAttribute("aria-pressed",x===b))}));
+    $("#pGo").addEventListener("click",()=>{
+      if(pick===null){$("#pErr").textContent="Pick one option first.";return}
+      submitLead("poll-"+k,{question:P[k][0],answer:P[k][1][pick]}).then(()=>{box.innerHTML='<div class="ok">Thank you. Your vote is counted. Aggregate results will appear in the next SkillWiz brief.</div>'});
+    });
+  }
+  $$("#pollTabs .chip").forEach(c=>c.addEventListener("click",()=>{k=c.dataset.k;$$("#pollTabs .chip").forEach(x=>x.setAttribute("aria-pressed",x===c));draw()}));
+  draw();
+})();
+
+/* demonstration slots: next ten weekdays */
+(function(){
+  const s=$("#slotDate"),d=new Date();let c=0;d.setDate(d.getDate()+1);
+  while(c<10){
+    if(d.getDay()!==0&&d.getDay()!==6){
+      const o=document.createElement("option");
+      o.value=d.getFullYear()+"-"+String(d.getMonth()+1).padStart(2,"0")+"-"+String(d.getDate()).padStart(2,"0");
+      o.textContent=d.toLocaleDateString("en-IN",{weekday:"short",day:"numeric",month:"short"});
+      s.appendChild(o);c++;
+    }
+    d.setDate(d.getDate()+1);
+  }
+})();
+
+/* assistant */
+(function(){
+  const fab=$("#cbFab"),box=$("#cb"),msgs=$("#cbM"),qs=$("#cbQ"),form=$("#cbF"),inp=$("#cbI");
+  const KB=[
+   {k:["price","cost","fee","pricing","rupee","how much","₹","charge"],a:'The core platform is <b>₹2,500 per active student per year</b>, excluding GST: under ₹7 a day. Extended services are quoted on scope. <a href="#pricing">Try the calculator</a>.'},
+   {k:["pilot","trial","first batch","start small","commit"],a:'We recommend an <b>8–12 week pilot</b> on one cohort, with success measures agreed first and a scale, refine or stop decision at the end. <a href="#proposal">Build a proposal</a>.'},
+   {k:["karm","patri","record","resume","résumé","profile","placeability"],a:'The <b>Karm-Patri</b> is a verified, evolving record of each student across eight scored dimensions, shareable with a recruiter in one click. <a href="#karm-patri">See a sample</a>.'},
+   {k:["data","privacy","dpdp","security","secure","own","gdpr"],a:'Student and institutional data <b>remain the University\'s property</b>. Processing is aligned with the DPDP Act, 2023, access is role-based, and on exit data is returned and deleted. <a href="#faq">Read the FAQ</a>.'},
+   {k:["employer","hire","hiring","recruit","company","intern","fresher","verified pool"],a:'Employers can search the <b>Verified Pool</b>, pre-screen within 48 hours and arrange Day-0 training. <a href="#employers">Request a shortlist plan</a>.'},
+   {k:["student","college","self-check","self check","ready","readiness"],a:'Students can take a two-minute <a href="#quiz">readiness self-check</a>. SkillWiz reaches students through their college; we will contact your placement office if yours is not on it yet.'},
+   {k:["faculty","mentor","tpo","hod","teacher","professor"],a:'Faculty and T&amp;P get a mentor console, department heat-maps and NBA-ready evidence. <a href="#faculty">See what faculty get</a>.'},
+   {k:["entrepreneur","eutp","startup","incubat","founder","venture"],a:'<b>EUTP</b> is the founder pipeline built and proven at KIIT: ideation camps, Build School, incubation and a mentor network, tracked in the Karm-Patri. <a href="#outcomes">Read more</a>.'},
+   {k:["integrat","erp","lms","sso","api","system"],a:'Yes. Single sign-on and integration with SIS / ERP, LMS and T&amp;P systems run through standard APIs or scheduled exchange, reviewed with your IT team before go-live.'},
+   {k:["partner","vendor","mou","sla","contract"],a:'SkillWiz is always the contract holder: <b>one MoU and one SLA</b>. Partners answer to SkillWiz; SkillWiz answers to you. <a href="#trust">Meet the partners</a>.'},
+   {k:["career","job at","join","opening","vacancy","work with you","work at"],a:'We would like to hear from you. <a href="#careers">See careers, internships and partnerships</a>.'},
+   {k:["industry","sector","defence","defense","chip","semiconductor","robot","space","biotech","manufactur","missile","cyber"],a:'Our <a href="#industries">Industry Radar</a> shows roles and skills for 12 sectors where India is hiring and building.'},
+   {k:["demo","demonstration","call","talk","human","contact","phone","whatsapp","schedule","book","meeting"],a:'Happy to connect you. Call <a href="tel:+919850696969">+91-98506 96969</a>, WhatsApp <a href="https://wa.me/917042420280">+91 70424 20280</a>, or <a href="#contact">pick a demonstration slot</a>.'}
+  ];
+  const FALL='I am not sure about that one. A person can answer it properly: <a href="#contact">leave a note and a time</a>, or call <a href="tel:+919850696969">+91-98506 96969</a>.';
+  const CHIPS=["Pricing","Run a pilot","What is Karm-Patri?","Data privacy","I am an employer","Talk to a human"];
+  const add=(who,html)=>{const d=document.createElement("div");d.className="msg "+who;d.innerHTML=html;msgs.appendChild(d);msgs.scrollTop=msgs.scrollHeight};
+  function answer(q){
+    const t=q.toLowerCase();let best=null,sc=0;
+    KB.forEach(e=>{const s=e.k.filter(w=>t.includes(w)).length;if(s>sc){sc=s;best=e}});
+    setTimeout(()=>add("b",best?best.a:FALL),350);
+  }
+  function ask(q){q=q.trim();if(!q)return;add("u",esc(q));answer(q)}
+  CHIPS.forEach(c=>{const b=document.createElement("button");b.type="button";b.textContent=c;b.addEventListener("click",()=>ask(c));qs.appendChild(b)});
+  let greeted=false;
+  function toggle(open){
+    box.classList.toggle("open",open);fab.setAttribute("aria-expanded",open);
+    if(open&&!greeted){greeted=true;add("b","Hi, I am the SkillWiz assistant. Tell me who you are or pick a topic below, and I will point you to the right place.")}
+    if(open)inp.focus();
+  }
+  fab.addEventListener("click",()=>toggle(!box.classList.contains("open")));
+  $("#cbX").addEventListener("click",()=>toggle(false));
+  form.addEventListener("submit",e=>{e.preventDefault();const v=inp.value;inp.value="";ask(v)});
+  msgs.addEventListener("click",e=>{if(e.target.closest("a[href^='#']"))toggle(false)});
+  document.addEventListener("keydown",e=>{if(e.key==="Escape"&&box.classList.contains("open"))toggle(false)});
+})();
+
+/* ===== ANIM ===== */
+/* hero network canvas: drifting dots joined by lines, paused off-screen */
+(function(){
+  const c=$("#net");if(!c||calm)return;
+  const x=c.getContext("2d"),hero=c.parentElement;let W,H,pts=[],raf=null,vis=true;
+  function size(){const r=hero.getBoundingClientRect(),d=Math.min(2,devicePixelRatio||1);W=r.width;H=r.height;c.width=W*d;c.height=H*d;x.setTransform(d,0,0,d,0,0);
+    const n=Math.round(Math.min(46,W*H/26000));pts=Array.from({length:n},()=>({x:Math.random()*W,y:Math.random()*H,vx:(Math.random()-.5)*.35,vy:(Math.random()-.5)*.35}))}
+  function frame(){
+    x.clearRect(0,0,W,H);
+    pts.forEach(p=>{p.x+=p.vx;p.y+=p.vy;if(p.x<0||p.x>W)p.vx*=-1;if(p.y<0||p.y>H)p.vy*=-1});
+    for(let i=0;i<pts.length;i++){for(let j=i+1;j<pts.length;j++){const a=pts[i],b=pts[j],dx=a.x-b.x,dy=a.y-b.y,d=dx*dx+dy*dy;
+      if(d<14400){x.strokeStyle="rgba(15,81,50,"+(.22*(1-d/14400))+")";x.lineWidth=1;x.beginPath();x.moveTo(a.x,a.y);x.lineTo(b.x,b.y);x.stroke()}}
+      x.fillStyle="rgba(244,123,32,.55)";x.beginPath();x.arc(pts[i].x,pts[i].y,2.2,0,6.283);x.fill()}
+    raf=vis?requestAnimationFrame(frame):null;
+  }
+  size();addEventListener("resize",size);
+  if("IntersectionObserver" in window)new IntersectionObserver(e=>{vis=e[0].isIntersecting;if(vis&&!raf)raf=requestAnimationFrame(frame)},{threshold:0}).observe(hero);
+  raf=requestAnimationFrame(frame);
+})();
+
+/* gentle parallax */
+(function(){
+  if(calm)return;const els=$$("[data-px]");if(!els.length)return;let tick=false;
+  addEventListener("scroll",()=>{if(tick)return;tick=true;requestAnimationFrame(()=>{els.forEach(el=>{el.style.transform="translateY("+(-scrollY*parseFloat(el.dataset.px)).toFixed(1)+"px)"});tick=false})},{passive:true});
+})();
+
+/* ===== SUPA: Supabase accounts, login records and lead capture ===== */
+(function(){
+  const dlg=$("#auth");if(!dlg||!dlg.showModal)return;
+  const form=$("#authForm"),msg=$("#authMsg"),go=$("#authGo");
+  const configured=!!(SUPABASE_URL&&SUPABASE_ANON_KEY);
+  const ROLE_LABEL={student:"Student",faculty:"Faculty / mentor",tpo:"TPO / department",leadership:"University leadership",recruiter:"Recruiter / employer"};
+  const loginBtn=$(".ddb.login"),loginMenu=loginBtn?loginBtn.nextElementSibling:null,menuHome=loginMenu?loginMenu.innerHTML:"";
+  let mode="login",user=null;
+
+  /* dialog modes: login, signup, newpass */
+  function setMode(m){
+    mode=m;msg.textContent="";msg.style.color="";
+    $$("#authTabs .chip").forEach(c=>c.setAttribute("aria-pressed",c.dataset.mode===m));
+    $$("[data-f]",form).forEach(el=>el.hidden=(m!=="signup"));
+    $("#authTabs").hidden=(m==="newpass");
+    $("#authAlt").hidden=(m!=="login");
+    form.email.closest("label").hidden=(m==="newpass");
+    $("#authPwWrap").hidden=false;
+    form.password.autocomplete=m==="login"?"current-password":"new-password";
+    $("#authPwWrap").firstChild.textContent=m==="newpass"?"New password":"Password";
+    $("#authTitle").textContent=m==="signup"?"Create your SkillWiz account":m==="newpass"?"Choose a new password":"Log in to SkillWiz";
+    go.textContent=m==="signup"?"Create account":m==="newpass"?"Save new password":"Log in";
+  }
+  function openAuth(role,m){
+    if(user){return}
+    $("#authPrev").hidden=configured;
+    if(role&&ROLE_LABEL[role]){$("#authRole").value=role;$("#authTag").textContent=ROLE_LABEL[role]+" login"}
+    setMode(m||"login");
+    if(!dlg.open)dlg.showModal();
+    form.email.focus();
+  }
+  const nice=m=>/failed to fetch|network|load failed/i.test(m)?"Could not reach the server. Check your connection and try again.":m;
+  const say=(t,ok)=>{msg.textContent=ok?t:nice(t);msg.style.color=ok?"var(--green)":""};
+  $("#authX").addEventListener("click",()=>dlg.close());
+  dlg.addEventListener("click",e=>{if(e.target===dlg)dlg.close()});
+  $$("#authTabs .chip").forEach(c=>c.addEventListener("click",()=>setMode(c.dataset.mode)));
+
+  /* any element with data-auth opens the dialog; data-logout signs out */
+  document.addEventListener("click",e=>{
+    const a=e.target.closest("[data-auth]");
+    if(a){e.preventDefault();openAuth(a.dataset.auth,a.dataset.mode)}
+    if(e.target.closest("[data-logout]")){e.preventDefault();if(sbClient)sbClient.auth.signOut()}
+  });
+
+  /* account state in the nav */
+  function refresh(){
+    if(!loginBtn)return;
+    if(user){
+      const md=user.user_metadata||{},name=(md.full_name||user.email||"").split(" ")[0];
+      loginBtn.textContent="Hi, "+name;
+      loginMenu.innerHTML='<div class="acct-note">Signed in as<br><b>'+esc(user.email||"")+'</b><br>'+esc(ROLE_LABEL[md.role]||"Student")+'</div><a href="#" data-logout>Log out</a>';
+    }else{
+      loginBtn.textContent="Login";loginMenu.innerHTML=menuHome;
+    }
+  }
+
+  /* one row per login in login_events */
+  function logEvent(ev){
+    if(!sbClient||!user)return;
+    sbClient.from("login_events").insert({event:ev,role:(user.user_metadata||{}).role||null,user_agent:navigator.userAgent.slice(0,300),page:location.href}).then(()=>{},()=>{});
+  }
+  const PENDING="sw_login_pending";
+
+  form.addEventListener("submit",async e=>{
+    e.preventDefault();
+    const d=formData(form),email=(d.email||"").trim();
+    if(!configured||!sbClient){say(configured?"Still connecting. Please try again in a moment.":"Preview mode: accounts are not connected yet.");return}
+    if(mode!=="newpass"&&!validEmail(email)){say("Enter a valid email address.");return}
+    if(!d.password||d.password.length<8){say("Password must be at least 8 characters.");return}
+    go.disabled=true;const lbl=go.textContent;go.textContent="Please wait…";
+    try{
+      if(mode==="signup"){
+        if(!d.full_name||!d.full_name.trim()){say("Enter your name.");return}
+        if(!d.org||!d.org.trim()){say("Enter your institution or company.");return}
+        if(!form.consent.checked){say("Tick the box so we can store your details.");return}
+        const {data,error}=await sbClient.auth.signUp({email,password:d.password,options:{emailRedirectTo:location.origin+location.pathname,data:{full_name:d.full_name.trim(),role:d.role,org:d.org.trim(),phone:(d.phone||"").trim(),consent:"true"}}});
+        if(error){say(error.message);return}
+        if(data.session){user=data.user;refresh();logEvent("sign_up");say("Account created. Welcome!",true);setTimeout(()=>dlg.close(),900)}
+        else say("Check your email and click the confirmation link to finish.",true);
+      }else if(mode==="newpass"){
+        const {error}=await sbClient.auth.updateUser({password:d.password});
+        if(error){say(error.message);return}
+        say("Password updated.",true);setTimeout(()=>dlg.close(),900);
+      }else{
+        const {data,error}=await sbClient.auth.signInWithPassword({email,password:d.password});
+        if(error){say(error.message==="Invalid login credentials"?"Email or password is not right.":error.message);return}
+        user=data.user;refresh();logEvent("sign_in");dlg.close();
+      }
+    }catch(err){say("Could not reach the server. Check your connection and try again.")}
+    finally{go.disabled=false;go.textContent=lbl}
+  });
+
+  $("#authMagic").addEventListener("click",async()=>{
+    const email=(form.email.value||"").trim();
+    if(!configured||!sbClient){say("Preview mode: accounts are not connected yet.");return}
+    if(!validEmail(email)){say("Enter your email address first.");return}
+    localStorage.setItem(PENDING,"1");
+    const {error}=await sbClient.auth.signInWithOtp({email,options:{emailRedirectTo:location.origin+location.pathname}});
+    say(error?error.message:"Login link sent. Check your email.",!error);
+  });
+  $("#authForgot").addEventListener("click",async()=>{
+    const email=(form.email.value||"").trim();
+    if(!configured||!sbClient){say("Preview mode: accounts are not connected yet.");return}
+    if(!validEmail(email)){say("Enter your email address first.");return}
+    const {error}=await sbClient.auth.resetPasswordForEmail(email,{redirectTo:location.origin+location.pathname});
+    say(error?error.message:"Password reset link sent. Check your email.",!error);
+  });
+
+  /* load Supabase only when configured */
+  if(!configured)return;
+  import("https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2/+esm").then(m=>{
+    sbClient=m.createClient(SUPABASE_URL,SUPABASE_ANON_KEY,{auth:{persistSession:true,autoRefreshToken:true,detectSessionInUrl:true}});
+    sbClient.auth.onAuthStateChange((ev,session)=>{
+      user=session?session.user:null;
+      setTimeout(()=>{
+        refresh();
+        if(ev==="PASSWORD_RECOVERY"){openAuth(null,"newpass");return}
+        if(user&&(ev==="SIGNED_IN"||ev==="INITIAL_SESSION")&&localStorage.getItem(PENDING)){localStorage.removeItem(PENDING);logEvent("sign_in_link")}
+      },0);
+    });
+  }).catch(()=>{console.warn("Supabase could not be loaded")});
+})();
+
+setAud("lead");
+})();
+</script>
+</body>
+</html>
