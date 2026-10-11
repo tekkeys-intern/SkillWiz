@@ -3,6 +3,7 @@
 Static one-page site. No build step.
 
 - `index.html`: the whole site (styles, scripts and graphics inside).
+- `vendor/supabase.js`: our own copy of the Supabase library (v2.117.3), so login does not depend on a third-party CDN.
 - `supabase/schema.sql`: database tables and security rules. Run once in the Supabase SQL Editor.
 - `supabase/SUPABASE_SETUP.md`: step-by-step Supabase setup.
 - `vercel.json`: security headers for Vercel.
