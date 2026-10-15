@@ -74,6 +74,7 @@ p{margin:0 0 14px}
 .who span{font-weight:700;color:var(--muted);margin-right:6px}
 .chip{font:700 .92rem var(--body);padding:9px 16px;border-radius:999px;border:2px solid var(--green);background:transparent;color:var(--green);cursor:pointer}
 .chip[aria-pressed="true"],.chip[aria-selected="true"]{background:var(--green);color:#fff}
+.who .chip{font-size:.78rem;padding:6px 12px}
 .hero-grid{display:grid;grid-template-columns:1.1fr .9fr;gap:48px;align-items:center}
 .hero h1{font-size:clamp(2.6rem,6.4vw,5rem);margin-bottom:18px}
 .hero h1 em{font-style:normal;color:var(--orange);display:block}
@@ -84,25 +85,32 @@ p{margin:0 0 14px}
 @media(max-width:900px){.hero-grid{grid-template-columns:1fr}}
 
 /* karm-patri card */
-.kp{margin:0 10px 10px 0;background:#fff;border-radius:14px;overflow:hidden;border:2px solid var(--green);box-shadow:10px 10px 0 var(--green)}
-.kp-head{background:var(--green);color:#fff;padding:16px 20px;display:flex;justify-content:space-between;gap:12px;align-items:flex-start}
-.kp-head strong{font-family:var(--display);font-weight:400;font-size:1.25rem;letter-spacing:.02em;text-transform:uppercase;display:block}
-.kp-head small{color:#CFE0D6;font-size:.8rem}
-.kp-ver{white-space:nowrap;font-family:var(--display);color:var(--gold);font-size:.95rem;letter-spacing:.04em}
-.kp-body{display:grid;grid-template-columns:150px 1fr;gap:18px;padding:20px}
-.kp-ring{text-align:center}
-.kp-ring svg{width:130px;height:130px}
-.kp-ring .n{font-family:var(--display);font-size:2.6rem;fill:var(--green)}
-.kp-ring p{font-size:.78rem;color:var(--muted);margin:6px 0 0}
-.kp-dims{display:grid;grid-template-columns:1fr 1fr;gap:10px}
-.dim{border:1px solid var(--line);border-radius:8px;padding:9px 11px}
-.dim label{display:block;font-size:.68rem;font-weight:700;color:var(--muted);letter-spacing:.04em;text-transform:uppercase}
-.dim b{font-family:var(--display);font-weight:400;font-size:1.15rem;color:var(--green)}
-.bar{height:4px;background:#EFE7D8;border-radius:2px;margin-top:5px;overflow:hidden}
-.bar i{display:block;height:100%;background:var(--orange);width:0;transition:width .7s ease}
-.kp-foot{border-top:1px solid var(--line);padding:10px 20px;font-size:.74rem;color:var(--muted)}
+/* Karm-Patri card (same design as the original hook page) */
+.kc{background:#1A1A1A;color:#FFF8EE;border-radius:20px;padding:28px;box-shadow:0 30px 60px rgba(26,26,26,.25);border-top:5px solid var(--orange);transform:rotate(1.5deg);transition:transform .3s}
+.kc:hover{transform:rotate(0) translateY(-4px)}
+.kc-top{display:flex;justify-content:space-between;align-items:flex-start;gap:12px}
+.kc-tag{font-size:10px;font-weight:800;letter-spacing:3px;color:var(--orange);text-transform:uppercase}
+.kc-name{font-family:var(--display);font-size:30px;letter-spacing:1px;text-transform:uppercase;line-height:1.1;margin-top:6px}
+.kc-meta{font-size:12px;color:rgba(255,248,238,.6);margin-top:2px}
+.kc-stamp{flex:none;width:124px;height:124px;margin:-18px -12px -24px 0;color:#E1B532;transform:rotate(-12deg);animation:stampin .7s cubic-bezier(.2,.9,.3,1.2) .5s both}
+.kc-stamp svg{width:100%;height:100%;display:block;overflow:visible}
+.kc-stamp text{font:800 8px var(--body);fill:currentColor}
+@keyframes stampin{0%{opacity:0;transform:scale(2.4) rotate(-32deg)}55%{opacity:1;transform:scale(.9) rotate(-12deg)}100%{opacity:.95;transform:scale(1) rotate(-12deg)}}
+.kc-score{display:flex;align-items:baseline;gap:8px;margin:22px 0 16px;border-bottom:1px solid #333;padding-bottom:18px}
+.kc-score .n{font-family:var(--display);font-size:92px;line-height:1;color:var(--orange)}
+.kc-score .of{font-size:14px;color:rgba(255,248,238,.6);font-weight:700}
+.kc-score .lbl{margin-left:auto;font-size:10px;letter-spacing:3px;font-weight:800;text-transform:uppercase;text-align:right;color:rgba(255,248,238,.7)}
+.kc-bar{margin:11px 0}
+.kc-bar .row{display:flex;justify-content:space-between;font-size:12px;font-weight:700;letter-spacing:1px;margin-bottom:5px;text-transform:uppercase}
+.kc-bar .row span:last-child{color:#E1B532}
+.kc-bar .track{height:7px;border-radius:99px;background:#333;overflow:hidden}
+.kc-bar .fill{height:100%;width:0;background:var(--orange);border-radius:99px;transition:width 1.4s cubic-bezier(.2,.8,.2,1)}
+.kc.in .fill{width:var(--w)}
+.kc-foot{display:flex;gap:10px;flex-wrap:wrap;margin-top:18px}
+.kc-chip{font-size:11px;font-weight:700;padding:6px 12px;border-radius:99px;border:1px solid #444;color:#FFF8EE}
+.kc-note{font-size:10px;color:rgba(255,248,238,.4);margin-top:14px;letter-spacing:1px}
 .kp-pick{display:flex;gap:8px;flex-wrap:wrap;margin-bottom:14px}
-@media(max-width:520px){.kp-body{grid-template-columns:1fr}.kp{box-shadow:6px 6px 0 var(--green)}}
+@media(max-width:980px){.kc{transform:none;max-width:520px}}
 
 /* proof strip */
 .proof{background:var(--green);color:#fff;padding:26px 0}
@@ -261,8 +269,11 @@ footer.site h4{color:#fff;font-size:.95rem;margin-bottom:10px;font-weight:800}
 .motto{font-family:var(--display);text-transform:uppercase;font-size:1.3rem;color:#fff;line-height:1.15;margin-top:14px}
 .motto span{color:var(--orange);display:block}
 
-.sticky-cta{position:fixed;left:0;right:0;bottom:0;z-index:40;background:#fff;border-top:3px solid var(--orange);padding:10px 16px calc(10px + env(safe-area-inset-bottom,0px));display:flex;gap:10px;justify-content:center;align-items:center;flex-wrap:wrap}
-.sticky-cta span{font-weight:700;font-size:.92rem}
+.sticky-cta{position:fixed;left:0;right:0;bottom:0;z-index:40;background:#000;border-top:2px solid var(--orange);padding:4px 14px calc(4px + env(safe-area-inset-bottom,0px));display:flex;gap:6px;justify-content:center;align-items:center;flex-wrap:wrap}
+.sticky-cta span{font-weight:700;font-size:.78rem;color:#fff}
+.sticky-cta .btn{padding:6px 14px;font-size:.82rem}
+.sticky-cta .btn-ghost{color:#fff;border-color:#fff}
+.sticky-cta .btn-ghost:hover{background:#fff;color:#000}
 @media(max-width:600px){.sticky-cta span{display:none}}
 @media(prefers-reduced-motion:reduce){*{transition:none!important;scroll-behavior:auto!important}}
 /* graphics + motion */
@@ -352,8 +363,10 @@ footer.site h4{color:#fff;font-size:.95rem;margin-bottom:10px;font-weight:800}
 .rule.rv{transform-origin:left;transition:transform .9s cubic-bezier(.2,.7,.2,1)}
 .panel,.stat,blockquote,.partners div{transition:opacity .6s ease,transform .6s ease,border-color .2s,box-shadow .2s;transition-delay:var(--d,0ms)}
 .panel:hover,.partners div:hover{border-color:var(--orange);box-shadow:0 5px 0 var(--orange)}
-.hero .kp{animation:floaty 7s ease-in-out infinite}
-@keyframes floaty{50%{transform:translateY(-8px)}}
+.hero .kc{animation:floaty 7s ease-in-out infinite}
+.hero .kc:hover{animation:none}
+@keyframes floaty{0%,100%{transform:rotate(1.5deg)}50%{transform:translateY(-8px) rotate(1.5deg)}}
+@media(max-width:980px){@keyframes floaty{50%{transform:translateY(-8px)}}}
 .swap{animation:frise .55s cubic-bezier(.2,.7,.2,1) both}
 details[open] p{animation:frise .3s both}
 .btn-primary{position:relative;overflow:hidden}
@@ -402,8 +415,6 @@ details[open] p{animation:frise .3s both}
 .pipe li:not(:last-child)::after{content:"";position:absolute;top:22px;left:50%;width:100%;height:2px;background:rgba(255,255,255,.45)}
 @keyframes hop{0%,18%{background:var(--orange);border-color:var(--orange);transform:scale(1.12)}24%,100%{background:var(--green);border-color:#fff;transform:scale(1)}}
 @media(max-width:700px){.pipe{grid-template-columns:1fr;gap:14px}.pipe li{display:grid;grid-template-columns:46px 1fr;gap:4px 14px;text-align:left;padding:0;align-items:center}.pipe li span{margin:0;grid-row:span 2}.pipe li::after{display:none}}
-.kp-ver::before{content:"";display:inline-block;width:8px;height:8px;border-radius:50%;background:var(--gold);margin-right:7px;animation:blink 1.8s infinite}
-@keyframes blink{50%{opacity:.25}}
 @media(prefers-reduced-motion:reduce){*{animation:none!important}.mv{display:none}}
 
 @media print{.nav,.sticky-cta,footer.site,.band:not(#proposal),.hero,.proof{display:none!important}#proposal .prop-form{display:none}#proposal{background:#fff;color:#000}}
@@ -554,6 +565,44 @@ dialog.auth::backdrop{background:rgba(10,58,36,.84);backdrop-filter:blur(3px)}
 .auth .notice{background:#FFF3E3;border-left:5px solid var(--orange);padding:10px 14px;font-size:.86rem;margin-bottom:14px}
 .ok.fail{background:#FDECEA;border-color:#B3261E;color:#7A1912}
 .acct-note{padding:10px 12px;font-size:.84rem;color:var(--muted);border-bottom:1px solid var(--line);margin-bottom:4px;overflow-wrap:anywhere}
+/* ===== RESPONSIVE FIT: one fluid scale for phone, laptop and desktop ===== */
+html{font-size:clamp(14px,13px + .22vw,15.5px);-webkit-text-size-adjust:100%;text-size-adjust:100%}
+body{font-size:1rem;overflow-x:clip}
+img,video,canvas,iframe{max-width:100%}
+.wrap{padding:0 clamp(16px,4vw,28px)}
+.band{padding:clamp(44px,7vw,76px) 0}
+h2{font-size:clamp(1.6rem,4.2vw,3rem)}
+.hero{padding:clamp(32px,5vw,52px) 0 clamp(40px,6vw,64px)}
+.hero h1{font-size:clamp(2.1rem,6vw,4.4rem)}
+.hero-grid{gap:clamp(28px,4vw,48px)}
+.lede,.hero p.sub{font-size:clamp(1rem,1.2vw + .6rem,1.12rem)}
+.rule{margin:6px 0 clamp(20px,3vw,32px)}
+.btn{padding:clamp(11px,1.4vw,13px) clamp(16px,2vw,20px)}
+.kc{padding:clamp(20px,3vw,26px)}
+.kc-name{font-size:clamp(22px,3vw,28px)}
+.kc-score .n{font-size:clamp(64px,8vw,84px)}
+@media(min-width:1600px){:root{--wrap:1280px}}
+@media(max-width:980px){.hero .kc,.kc{margin-inline:auto}.kpwrap{max-width:520px;margin-inline:auto;width:100%}}
+@media(max-width:600px){
+  .nav-in{height:58px;gap:12px}.nav-links{top:58px}
+  .logo{font-size:1.6rem}
+  .who{gap:6px;margin-bottom:18px}.who .chip{padding:5px 10px;font-size:.76rem}
+  .panel{padding:18px}.stat{padding:16px}.stat b{font-size:2.1rem}
+  .callout{padding:14px 16px}
+  .kc-stamp{width:96px;height:96px;margin:-14px -8px -18px 0}
+  .kc-tag{letter-spacing:2px}
+  .kc-bar .row{font-size:11px;letter-spacing:.5px}
+  .hero-facts{gap:6px 18px;font-size:.88rem}
+  .sticky-cta{padding:5px 10px calc(5px + env(safe-area-inset-bottom,0px));gap:6px;flex-wrap:nowrap}
+  .sticky-cta .btn{flex:1;padding:7px 10px;font-size:.80rem;white-space:nowrap}
+  .foot-grid{gap:22px}
+}
+@media(max-width:380px){.kc-score .lbl{letter-spacing:2px}.hero-cta .btn{flex:1 1 100%}}
+/* even top and bottom space inside every section */
+.band>.wrap>:last-child,.hero>.wrap>:last-child,.proof>.wrap>:last-child{margin-bottom:0}
+.band>.wrap>:last-child>:last-child,.band>.wrap>:last-child>:last-child>:last-child{margin-bottom:0}
+.hero{padding-block:clamp(32px,5vw,56px)}
+.band>.wrap>:empty{margin-block:0!important}
 </style>
 </head>
 <body>
@@ -620,7 +669,7 @@ dialog.auth::backdrop{background:rgba(10,58,36,.84);backdrop-filter:blur(3px)}
           <li>One MoU, one SLA</li>
         </ul>
       </div>
-      <div class="kpwrap" data-px="0.05"><div class="kp" id="heroKp" aria-label="Sample Karm-Patri record"></div><span class="fchip c1" aria-hidden="true">Verified</span><span class="fchip c2" aria-hidden="true">Day-0 ready</span><span class="fchip c3" aria-hidden="true">Placeability 87</span></div>
+      <div class="kpwrap" data-px="0.05"><div class="kc" id="heroKp" aria-label="Sample Karm-Patri record"></div><span class="fchip c1" aria-hidden="true">Verified</span><span class="fchip c2" aria-hidden="true">Day-0 ready</span><span class="fchip c3" aria-hidden="true">Placeability 87</span></div>
     </div>
   </div>
 </section>
@@ -777,7 +826,7 @@ dialog.auth::backdrop{background:rgba(10,58,36,.84);backdrop-filter:blur(3px)}
         <p style="font-weight:800;color:var(--green)">Owned by the University. Curated by SkillWiz. Carried by the student for life.</p>
         <p style="font-weight:700;margin-top:22px">See how the record differs by discipline:</p>
         <div class="kp-pick" role="group" aria-label="Sample students" id="kpPick"></div>
-        <div class="kp" id="kpDemo"></div>
+        <div class="kc" id="kpDemo"></div>
       </div>
       <div>
         <h3 style="margin-bottom:12px">Résumé versus Karm-Patri</h3>
@@ -1406,20 +1455,24 @@ function inr(n){
 
 /* Karm-Patri renderer */
 const students={
-  ece:{name:"Sample student",prog:"B.Tech ECE, 3rd Year",idx:87,dims:[["Cognitive","92/100",92],["Coding","78/100",78],["Core technical (ECE)","85/100",85],["Company mocks","12 cleared",80],["Global credentials","Cyber + AI",100],["Personal interview","84/100",84],["Projects shipped","4 live",80],["Founder track","EUTP active",100]]},
-  cse:{name:"Sample student",prog:"B.Tech CSE, 4th Year",idx:91,dims:[["Cognitive","88/100",88],["Coding","94/100",94],["Core technical (CSE)","90/100",90],["Company mocks","16 cleared",90],["Global credentials","AI / ML",100],["Personal interview","86/100",86],["Projects shipped","6 live",100],["Founder track","Not opted",0]]},
-  me:{name:"Sample student",prog:"B.Tech ME, 2nd Year",idx:64,dims:[["Cognitive","74/100",74],["Coding","52/100",52],["Core technical (ME)","71/100",71],["Company mocks","3 cleared",25],["Global credentials","In progress",40],["Personal interview","60/100",60],["Projects shipped","1 live",25],["Founder track","I-Camp stage",50]]}
+  ece:{name:"Anjali Sharma",prog:"B.Tech ECE · 3rd Year",idx:87,bars:[["Cognitive",92],["Coding",78],["Core (ECE)",85],["Personal interview",84]],chips:["12 company mocks cleared","4 live projects"]},
+  cse:{name:"Sample student",prog:"B.Tech CSE · 4th Year",idx:91,bars:[["Cognitive",88],["Coding",94],["Core (CSE)",90],["Personal interview",86]],chips:["16 company mocks cleared","6 live projects"]},
+  me:{name:"Sample student",prog:"B.Tech ME · 2nd Year",idx:64,bars:[["Cognitive",74],["Coding",52],["Core (ME)",71],["Personal interview",60]],chips:["3 company mocks cleared","1 live project"]}
 };
+let kpUid=0;
+function stampSvg(){
+  return `<span class="kc-stamp" role="img" aria-label="Verified"><img src="img/verstamp.png" alt="Verified" aria-hidden="true"/></span>`;
+}
 function renderKp(el,s){
-  const C=2*Math.PI*52, off=C*(1-s.idx/100);
-  el.innerHTML=`<div class="kp-head"><div><strong>Karm-Patri: personal performance record</strong><small>${esc(s.name)} · ${esc(s.prog)}</small></div><span class="kp-ver">Verified</span></div>
-  <div class="kp-body"><div class="kp-ring"><svg viewBox="0 0 130 130" role="img" aria-label="Placeability Index ${s.idx} out of 100"><circle cx="65" cy="65" r="52" fill="none" stroke="#EFE7D8" stroke-width="13"/><circle cx="65" cy="65" r="52" fill="none" stroke="#F47B20" stroke-width="13" stroke-dasharray="${C}" stroke-dashoffset="${C}" transform="rotate(-90 65 65)" style="transition:stroke-dashoffset .9s ease" class="arc"/><text x="65" y="78" text-anchor="middle" class="n">${s.idx}</text></svg><p><strong>Placeability Index</strong><br>out of 100, updated every semester</p></div>
-  <div class="kp-dims">${s.dims.map(d=>`<div class="dim"><label>${esc(d[0])}</label><b>${esc(d[1])}</b><div class="bar"><i data-w="${d[2]}"></i></div></div>`).join("")}</div></div>
-  <div class="kp-foot">Illustrative sample. The final layout is co-designed with each partner university.</div>`;
-  requestAnimationFrame(()=>requestAnimationFrame(()=>{
-    $(".arc",el).style.strokeDashoffset=off;
-    $$(".bar i",el).forEach(i=>i.style.width=i.dataset.w+"%");
-  }));
+  el.classList.remove("in");
+  el.innerHTML=`<div class="kc-top"><div><div class="kc-tag">Karm-Patri · Live record</div><div class="kc-name">${esc(s.name)}</div><div class="kc-meta">${esc(s.prog)}</div></div>${stampSvg()}</div>
+  <div class="kc-score" role="img" aria-label="Placeability Score ${s.idx} out of 100"><span class="n">${s.idx}</span><span class="of">/ 100</span><span class="lbl">Placeability<br>Score</span></div>
+  ${s.bars.map(d=>`<div class="kc-bar"><div class="row"><span>${esc(d[0])}</span><span>${d[1]}</span></div><div class="track"><div class="fill" style="--w:${d[1]}%"></div></div></div>`).join("")}
+  <div class="kc-foot">${s.chips.map(c=>`<span class="kc-chip">${esc(c)}</span>`).join("")}</div>
+  <div class="kc-note">SAMPLE RECORD · ILLUSTRATIVE</div>`;
+  const n=$(".kc-score .n",el),still=matchMedia("(prefers-reduced-motion: reduce)").matches;
+  if(!still){n.textContent="0";const t0=performance.now();(function tick(now){const k=Math.min(1,(now-t0)/1400);n.textContent=Math.round(s.idx*(1-Math.pow(1-k,3)));if(k<1)requestAnimationFrame(tick)})(t0)}
+  requestAnimationFrame(()=>requestAnimationFrame(()=>el.classList.add("in")));
 }
 renderKp($("#heroKp"),students.ece);
 const pick=$("#kpPick");
